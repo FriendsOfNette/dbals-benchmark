@@ -446,3 +446,37 @@ Doctrine2       | ~2.4.0          | Time:  1.455 s | Memory: 21.8 MB | PHP: 5.4.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.364 | RAM: 30870568 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  1.354 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.1.0          | Time:  0.832 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.2.0          | Time:  0.822 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.3.0          | Time:  0.932 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/master/vendor/nette/utils/src/Utils/Callback.php on line 97
+Georgi Facello (10001)
+Salaries:
+Nextras\Orm     | ~1.0            | Time:  1.530 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+YetORM          | ~8.0            | Time:  1.152 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | ~2.0            | Time:  0.842 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.395 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ~2.4.0          | Time:  9.196 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  1.255 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.1.0          | Time:  0.710 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.2.0          | Time:  0.702 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.3.0          | Time:  0.791 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/master/vendor/nette/utils/src/Utils/Callback.php on line 97
+Georgi Facello (10001)
+Salaries:
+Nextras\Orm     | ~1.0            | Time:  0.997 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+YetORM          | ~8.0            | Time:  1.070 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | ~2.0            | Time:  0.741 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.387 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ~2.4.0          | Time:  1.423 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+
