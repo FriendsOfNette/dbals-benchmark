@@ -338,3 +338,55 @@ Doctrine2       | ~2.4.0          | Time:  2.138 s | Memory: 20.5 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.096 | RAM: 30870568 kB
+First run (create cache files)
+
+Fatal error: Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Call Stack:
+    0.0002     377760   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:0
+    0.0004     385392   2. Bootstrap::check() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:11
+    0.0004     387392   3. include('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/autoload.php') /home/travis/build/f3l1x/dbals-benchmark/src/bootstrap.php:24
+    0.0006     397688   4. ComposerAutoloaderInit9d41e9cc0a921b4b073b92799fba0575::getLoader() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/autoload.php:7
+    0.0012     452944   5. composerRequire9d41e9cc0a921b4b073b92799fba0575() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/composer/autoload_real.php:45
+    0.0013     466896   6. require('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/nette/Nette/loader.php') /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/composer/autoload_real.php:55
+
+NetteDatabase   | ~2.1.0          | Time:  0.838 s | Memory: 13.9 MB | PHP: 7.0.0
+NetteDatabase   | ~2.2.0          | Time:  1.348 s | Memory: 13.7 MB | PHP: 7.0.0
+NetteDatabase   | ~2.3.0          | Time:  1.277 s | Memory: 15.3 MB | PHP: 7.0.0
+NetteDatabase   | dev-master      | Time:  0.768 s | Memory: 15.2 MB | PHP: 7.0.0
+Nextras\Orm     | ~1.0            | Time:  1.792 s | Memory: 19.3 MB | PHP: 7.0.0
+YetORM          | ~8.0            | Time:  1.029 s | Memory: 16.6 MB | PHP: 7.0.0
+LeanMapper      | ~2.0            | Time:  0.845 s | Memory: 12.7 MB | PHP: 7.0.0
+NotORM          | dev-master      | Time:  2.689 s | Memory:  7.4 MB | PHP: 7.0.0
+Doctrine2       | ~2.4.0          | Time:  8.015 s | Memory: 18.1 MB | PHP: 7.0.0
+
+
+Second run (use cache)
+
+Fatal error: Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Call Stack:
+    0.0002     377760   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:0
+    0.0004     385392   2. Bootstrap::check() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:11
+    0.0004     387392   3. include('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/autoload.php') /home/travis/build/f3l1x/dbals-benchmark/src/bootstrap.php:24
+    0.0005     397688   4. ComposerAutoloaderInit9d41e9cc0a921b4b073b92799fba0575::getLoader() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/autoload.php:7
+    0.0011     452944   5. composerRequire9d41e9cc0a921b4b073b92799fba0575() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/composer/autoload_real.php:45
+    0.0012     466896   6. require('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/nette/Nette/loader.php') /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/composer/autoload_real.php:55
+
+NetteDatabase   | ~2.1.0          | Time:  0.838 s | Memory: 11.7 MB | PHP: 7.0.0
+NetteDatabase   | ~2.2.0          | Time:  0.809 s | Memory: 11.6 MB | PHP: 7.0.0
+NetteDatabase   | ~2.3.0          | Time:  0.847 s | Memory: 13.1 MB | PHP: 7.0.0
+NetteDatabase   | dev-master      | Time:  0.756 s | Memory: 13.1 MB | PHP: 7.0.0
+Nextras\Orm     | ~1.0            | Time:  1.023 s | Memory: 19.1 MB | PHP: 7.0.0
+YetORM          | ~8.0            | Time:  0.970 s | Memory: 14.4 MB | PHP: 7.0.0
+LeanMapper      | ~2.0            | Time:  0.811 s | Memory: 12.7 MB | PHP: 7.0.0
+NotORM          | dev-master      | Time:  3.215 s | Memory:  7.4 MB | PHP: 7.0.0
+Doctrine2       | ~2.4.0          | Time:  1.279 s | Memory: 16.4 MB | PHP: 7.0.0
+
+
+
