@@ -1,0 +1,142 @@
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.054 | RAM: 30870568 kB
+First run (create cache files)
+
+Fatal error: Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Call Stack:
+    0.0002     378112   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/run-employees.php:0
+    0.0004     385712   2. Bootstrap::check() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/run-employees.php:11
+    0.0004     387680   3. include('/home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/autoload.php') /home/travis/build/minetro/db-benchmark/bootstrap.php:24
+    0.0006     397912   4. ComposerAutoloaderInit820a59942ffccb57a1c802d4022a0b9f::getLoader() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/autoload.php:7
+    0.0012     453088   5. composerRequire820a59942ffccb57a1c802d4022a0b9f() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/composer/autoload_real.php:45
+    0.0013     466784   6. require('/home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php') /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/composer/autoload_real.php:55
+
+NDB 2.1         | Nette: 2.1.12             | Time:  0.884 s | Memory: 13.9 MB | PHP: 7.0.0
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.796 s | Memory: 13.7 MB | PHP: 7.0.0
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.763 s | Memory: 15.2 MB | PHP: 7.0.0
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.993 s | Memory: 15.2 MB | PHP: 7.0.0
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  1.338 s | Memory: 19.2 MB | PHP: 7.0.0
+YetORM          | YetORM: ~8.0              | Time:  0.978 s | Memory: 16.5 MB | PHP: 7.0.0
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.970 s | Memory: 12.6 MB | PHP: 7.0.0
+NotORM          | NotORM: dev-master        | Time:  2.589 s | Memory:  7.4 MB | PHP: 7.0.0
+Doctrine2       | Doctrine: 2.6.1           | Time: 10.047 s | Memory: 28.5 MB | PHP: 7.0.0
+
+
+Second run (using cache)
+
+Fatal error: Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+
+Call Stack:
+    0.0002     378112   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/run-employees.php:0
+    0.0004     385712   2. Bootstrap::check() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/run-employees.php:11
+    0.0004     387680   3. include('/home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/autoload.php') /home/travis/build/minetro/db-benchmark/bootstrap.php:24
+    0.0005     397912   4. ComposerAutoloaderInit820a59942ffccb57a1c802d4022a0b9f::getLoader() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/autoload.php:7
+    0.0011     453088   5. composerRequire820a59942ffccb57a1c802d4022a0b9f() /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/composer/autoload_real.php:45
+    0.0012     466784   6. require('/home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php') /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/composer/autoload_real.php:55
+
+NDB 2.1         | Nette: 2.1.12             | Time:  0.822 s | Memory: 11.7 MB | PHP: 7.0.0
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.787 s | Memory: 11.6 MB | PHP: 7.0.0
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.873 s | Memory: 13.1 MB | PHP: 7.0.0
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  1.056 s | Memory: 13.1 MB | PHP: 7.0.0
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  0.989 s | Memory: 19.0 MB | PHP: 7.0.0
+YetORM          | YetORM: ~8.0              | Time:  0.989 s | Memory: 14.4 MB | PHP: 7.0.0
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.782 s | Memory: 12.6 MB | PHP: 7.0.0
+NotORM          | NotORM: dev-master        | Time:  2.459 s | Memory:  7.4 MB | PHP: 7.0.0
+Doctrine2       | Doctrine: 2.6.1           | Time:  3.450 s | Memory: 26.7 MB | PHP: 7.0.0
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.372 | RAM: 30870568 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time: 12.194 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1         | Nette: 2.1.12             | Time:  1.084 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.807 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.818 s | Memory: 19.2 MB | PHP: 5.6.5
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.846 s | Memory: 19.2 MB | PHP: 5.6.5
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  1.338 s | Memory: 25.2 MB | PHP: 5.6.5
+YetORM          | YetORM: ~8.0              | Time:  1.074 s | Memory: 21.1 MB | PHP: 5.6.5
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.730 s | Memory: 16.8 MB | PHP: 5.6.5
+NotORM          | NotORM: dev-master        | Time:  3.524 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | Doctrine: 2.6.1           | Time: 10.755 s | Memory: 34.9 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time: 10.542 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1         | Nette: 2.1.12             | Time:  0.834 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.780 s | Memory: 14.4 MB | PHP: 5.6.5
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.817 s | Memory: 16.7 MB | PHP: 5.6.5
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  1.020 s | Memory: 16.6 MB | PHP: 5.6.5
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  1.095 s | Memory: 24.9 MB | PHP: 5.6.5
+YetORM          | YetORM: ~8.0              | Time:  1.057 s | Memory: 18.5 MB | PHP: 5.6.5
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.729 s | Memory: 16.8 MB | PHP: 5.6.5
+NotORM          | NotORM: dev-master        | Time:  3.175 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | Doctrine: 2.6.1           | Time:  3.745 s | Memory: 32.3 MB | PHP: 5.6.5
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.070 | RAM: 30870568 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time:  1.321 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1         | Nette: 2.1.12             | Time:  0.824 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.816 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.913 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/utils/src/Utils/Callback.php on line 97
+Georgi Facello (10001)
+Salaries:
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  1.538 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+YetORM          | YetORM: ~8.0              | Time:  1.229 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.845 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | NotORM: dev-master        | Time:  0.398 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | Doctrine: 2.6.1           | Time: 13.145 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time:  1.356 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1         | Nette: 2.1.12             | Time:  0.832 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.710 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.896 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/utils/src/Utils/Callback.php on line 97
+Georgi Facello (10001)
+Salaries:
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  0.960 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+YetORM          | YetORM: ~8.0              | Time:  1.064 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.718 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | NotORM: dev-master        | Time:  0.379 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | Doctrine: 2.6.1           | Time:  2.285 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.100 | RAM: 30870568 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time: 13.388 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1         | Nette: 2.1.12             | Time:  1.002 s | Memory: 17.2 MB | PHP: 5.4.37
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.988 s | Memory: 16.9 MB | PHP: 5.4.37
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.924 s | Memory: 19.2 MB | PHP: 5.4.37
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  1.074 s | Memory: 19.1 MB | PHP: 5.4.37
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  1.845 s | Memory: 25.2 MB | PHP: 5.4.37
+YetORM          | YetORM: ~8.0              | Time:  1.461 s | Memory: 21.0 MB | PHP: 5.4.37
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.802 s | Memory: 16.8 MB | PHP: 5.4.37
+NotORM          | NotORM: dev-master        | Time:  3.369 s | Memory: 13.2 MB | PHP: 5.4.37
+Doctrine2       | Doctrine: 2.5.3           | Time: 12.773 s | Memory: 38.4 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time: 11.610 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1         | Nette: 2.1.12             | Time:  0.850 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.841 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.825 s | Memory: 16.6 MB | PHP: 5.4.37
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.900 s | Memory: 16.6 MB | PHP: 5.4.37
+Nextras\ORM     | ORM: ~1.0.0, DBAL: ~1.0.0 | Time:  1.164 s | Memory: 24.9 MB | PHP: 5.4.37
+YetORM          | YetORM: ~8.0              | Time:  1.093 s | Memory: 18.5 MB | PHP: 5.4.37
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.917 s | Memory: 16.8 MB | PHP: 5.4.37
+NotORM          | NotORM: dev-master        | Time:  4.062 s | Memory: 13.2 MB | PHP: 5.4.37
+Doctrine2       | Doctrine: 2.5.3           | Time:  4.615 s | Memory: 35.9 MB | PHP: 5.4.37
+
+
+

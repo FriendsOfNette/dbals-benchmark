@@ -1,0 +1,1150 @@
+NDB 2.0      | Nette: 2.0.18   | Time: 12.321 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.061 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.045 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.193 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.147 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.140 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.062 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time: 14.920 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 12.367 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.050 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.077 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.181 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.214 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.348 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.036 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.330 s | Memory: 35.2 MB | PHP: 5.6.5
+NDB 2.0      | Nette: 2.0.18   | Time: 14.310 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.373 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.198 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.346 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.304 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.781 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.238 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time: 19.451 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 14.967 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.213 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.179 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.308 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.276 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.654 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.193 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.992 s | Memory: 35.1 MB | PHP: 5.4.37
+NDB 2.0      | Nette: 2.0.18   | Time: 13.019 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.132 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.120 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.460 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.336 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  4.600 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.184 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time: 16.308 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 12.813 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.152 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.037 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.130 s | Memory: 16.6 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.151 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  4.472 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.015 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.217 s | Memory: 35.1 MB | PHP: 5.5.21
+NDB 2.0      | Nette: 2.0.18   | Time:  2.461 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.212 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.173 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.348 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.253 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.563 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.413 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time: 18.872 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time:  2.309 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  0.997 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.006 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.124 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.261 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.603 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.289 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time:  3.302 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.0      | Nette: 2.0.18   | Time: 12.769 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.116 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.166 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.300 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.370 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  4.830 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.098 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time: 15.691 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 13.382 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.210 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.193 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.296 s | Memory: 16.6 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.338 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  5.063 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.349 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time:  6.858 s | Memory: 35.1 MB | PHP: 5.5.21
+NDB 2.0      | Nette: 2.0.18   | Time: 14.731 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.285 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.297 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.393 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.369 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.891 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.283 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time: 18.343 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 15.103 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.228 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.194 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.312 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.344 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.848 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.171 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.828 s | Memory: 35.2 MB | PHP: 5.6.5
+NDB 2.0      | Nette: 2.0.18   | Time: 18.088 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.541 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.519 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.661 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.639 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  5.975 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.532 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time: 21.180 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 18.664 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.504 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.475 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.613 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.591 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  6.038 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.521 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time:  7.333 s | Memory: 35.1 MB | PHP: 5.4.37
+NDB 2.0      | Nette: 2.0.18   | Time:  2.270 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.158 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.075 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.247 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.157 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.510 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.092 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time: 16.620 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time:  2.175 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.030 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  0.940 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  0.990 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.041 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.522 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.087 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time:  3.538 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.0      | Nette: 2.0.18   | Time: 12.922 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.146 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.123 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.263 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.225 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.640 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.166 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time: 16.805 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 14.087 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.190 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.202 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.289 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.269 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.864 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.065 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.169 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 12.766 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.131 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.108 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.273 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.208 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.473 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.126 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time: 17.310 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 13.838 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.080 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.059 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.168 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.160 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.401 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.099 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.520 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 15.194 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.272 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.267 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.334 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.351 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  5.417 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.295 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time: 17.680 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 14.705 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.221 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.181 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.347 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.297 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  5.163 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.189 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.604 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time:  2.794 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.348 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.320 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.499 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.369 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.633 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.307 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time: 19.276 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+NDB 2.0      | Nette: 2.0.18   | Time:  2.534 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.092 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.085 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.227 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.211 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.592 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.080 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time:  3.681 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+
+Fatal error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+NDB 2.1      | Nette: 2.1.9    | Time:  0.389 s | Memory: 12.0 MB | PHP: 7.0.0-dev
+NDB 2.2      | NDB: ~2.2.0     | Time:  0.376 s | Memory: 11.8 MB | PHP: 7.0.0-dev
+NDB 2.3      | NDB: ~2.3.0     | Time:  0.436 s | Memory: 13.3 MB | PHP: 7.0.0-dev
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  0.415 s | Memory: 13.3 MB | PHP: 7.0.0-dev
+NotORM       | NotORM: dev-master | Time:  0.420 s | Memory:  7.9 MB | PHP: 7.0.0-dev
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  0.332 s | Memory:  9.6 MB | PHP: 7.0.0-dev
+Doctrine2    | Doctrine: 2.4.2 | Time: 15.254 s | Memory: 24.4 MB | PHP: 7.0.0-dev
+
+
+
+Fatal error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+NDB 2.1      | Nette: 2.1.9    | Time:  0.329 s | Memory: 11.3 MB | PHP: 7.0.0-dev
+NDB 2.2      | NDB: ~2.2.0     | Time:  0.307 s | Memory: 11.1 MB | PHP: 7.0.0-dev
+NDB 2.3      | NDB: ~2.3.0     | Time:  0.365 s | Memory: 12.5 MB | PHP: 7.0.0-dev
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  0.346 s | Memory: 12.5 MB | PHP: 7.0.0-dev
+NotORM       | NotORM: dev-master | Time:  0.406 s | Memory:  7.9 MB | PHP: 7.0.0-dev
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  0.290 s | Memory:  9.6 MB | PHP: 7.0.0-dev
+Doctrine2    | Doctrine: 2.4.2 | Time:  3.079 s | Memory: 23.2 MB | PHP: 7.0.0-dev
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 15.390 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.352 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.341 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.432 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.416 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  5.088 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.209 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time: 18.063 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 14.184 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.174 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.225 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.340 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.278 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.891 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.217 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.935 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 14.546 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.254 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.269 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.324 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.311 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  5.207 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.210 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time: 17.631 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 14.301 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.156 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.143 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.241 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.238 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  5.055 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.179 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.607 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time:  2.301 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.164 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.134 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.315 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.146 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.518 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.079 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time: 16.105 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+NDB 2.0      | Nette: 2.0.18   | Time:  2.117 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  0.913 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  0.843 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  0.972 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  0.950 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.475 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  0.863 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time:  3.190 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 13.813 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.325 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.197 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.217 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.193 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.689 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.284 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time: 18.367 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+NDB 2.0      | Nette: 2.0.18   | Time: 13.622 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.144 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.219 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.299 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.320 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.983 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.223 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time:  6.113 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/Database/Connection.php(47): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.0/run-employees.php(17): Nette\Database\Connection->__construct()
+#2 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.1/vendor/nette/nette/Nette/Database/Connection.php(69): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.1/vendor/nette/nette/Nette/Database/Connection.php(59): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.1/run-employees.php(18): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.2/vendor/nette/database/src/Database/Connection.php(66): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.2/vendor/nette/database/src/Database/Connection.php(56): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.2/run-employees.php(17): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(70): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/run-employees.php(20): Nette\Database\Connection->__construct()
+#3 {main}
+
+Next exception 'Nette\Database\ConnectionException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/DriverException.php:25
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(73): Nette\Database\DriverException::from()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/run-employees.php(20): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(70): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/run-employees.php(21): Nette\Database\Connection->__construct()
+#3 {main}
+
+Next exception 'Nette\Database\ConnectionException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/DriverException.php:25
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(73): Nette\Database\DriverException::from()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/run-employees.php(21): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NotORM/run-employees.php(14): PDO->__construct()
+#1 {main}
+
+Fatal error: Uncaught exception 'DibiDriverException' with message 'Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in /home/travis/build/minetro/db-benchmark/libs/LeanMapper/vendor/dibi/dibi/dibi/drivers/DibiMySqliDriver.php:113
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/LeanMapper/vendor/dibi/dibi/dibi/libs/DibiConnection.php(152): DibiMySqliDriver->connect()
+#1 /home/travis/build/minetro/db-benchmark/libs/LeanMapper/vendor/dibi/dibi/dibi/libs/DibiConnection.php(128): DibiConnection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/LeanMapper/run-employees.php(17): DibiConnection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(36): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(47): Doctrine\DBAL\Driver\PDOConnection->__construct()
+#2 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(350): Doctrine\DBAL\Driver\PDOMySql\Driver->connect()
+#3 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(627): Doctrine\DBAL\Connection->connect()
+#4 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php(46): Doctrine\DBAL\Connection->executeQuery()
+#5 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(264): Doctrine\ORM\Query\Exec\SingleSelectExecutor->execute()
+#6 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(753): Doctrine\ORM\Query->_doExecute()
+#7 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(566): Doctrine\ORM\AbstractQuery->execute()
+#8 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Pagination/Paginator.php(173): Doctrine\ORM\AbstractQuery->getScalarResult()
+#9 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/run-employees.php(67): Doctrine\ORM\Tools\Pagination\Paginator->getIterator()
+#10 {main}
+
+
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/Database/Connection.php(47): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.0/run-employees.php(17): Nette\Database\Connection->__construct()
+#2 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.1/vendor/nette/nette/Nette/Database/Connection.php(69): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.1/vendor/nette/nette/Nette/Database/Connection.php(59): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.1/run-employees.php(18): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.2/vendor/nette/database/src/Database/Connection.php(66): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.2/vendor/nette/database/src/Database/Connection.php(56): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.2/run-employees.php(17): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(70): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/run-employees.php(20): Nette\Database\Connection->__construct()
+#3 {main}
+
+Next exception 'Nette\Database\ConnectionException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/DriverException.php:25
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(73): Nette\Database\DriverException::from()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.3/run-employees.php(20): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(70): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/run-employees.php(21): Nette\Database\Connection->__construct()
+#3 {main}
+
+Next exception 'Nette\Database\ConnectionException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/DriverException.php:25
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(73): Nette\Database\DriverException::from()
+#1 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/vendor/nette/database/src/Database/Connection.php(57): Nette\Database\Connection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/NDB2.4/run-employees.php(21): Nette\Database\Connection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/NotORM/run-employees.php(14): PDO->__construct()
+#1 {main}
+
+Fatal error: Uncaught exception 'DibiDriverException' with message 'Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in /home/travis/build/minetro/db-benchmark/libs/LeanMapper/vendor/dibi/dibi/dibi/drivers/DibiMySqliDriver.php:113
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/LeanMapper/vendor/dibi/dibi/dibi/libs/DibiConnection.php(152): DibiMySqliDriver->connect()
+#1 /home/travis/build/minetro/db-benchmark/libs/LeanMapper/vendor/dibi/dibi/dibi/libs/DibiConnection.php(128): DibiConnection->connect()
+#2 /home/travis/build/minetro/db-benchmark/libs/LeanMapper/run-employees.php(17): DibiConnection->__construct()
+#3 {main}
+
+Fatal error: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)' in :
+Stack trace:
+#0 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(36): PDO->__construct()
+#1 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(47): Doctrine\DBAL\Driver\PDOConnection->__construct()
+#2 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(350): Doctrine\DBAL\Driver\PDOMySql\Driver->connect()
+#3 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(627): Doctrine\DBAL\Connection->connect()
+#4 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php(46): Doctrine\DBAL\Connection->executeQuery()
+#5 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/Query.php(264): Doctrine\ORM\Query\Exec\SingleSelectExecutor->execute()
+#6 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(753): Doctrine\ORM\Query->_doExecute()
+#7 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php(566): Doctrine\ORM\AbstractQuery->execute()
+#8 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Pagination/Paginator.php(173): Doctrine\ORM\AbstractQuery->getScalarResult()
+#9 /home/travis/build/minetro/db-benchmark/libs/Doctrine2/run-employees.php(67): Doctrine\ORM\Tools\Pagination\Paginator->getIterator()
+#10 {main}
+
+
+
+First run (create cache files)
+NDB 2.0      | Nette: 2.0.18   | Time: 13.062 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.068 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.029 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.110 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.124 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.392 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.143 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time: 15.947 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0      | Nette: 2.0.18   | Time: 13.833 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1      | Nette: 2.1.9    | Time:  1.148 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.179 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.289 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.250 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM       | NotORM: dev-master | Time:  4.417 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.096 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.169 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+
+First run (create cache files)
+NDB 2.0      | Nette: 2.0.18   | Time:  2.751 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  1.224 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.441 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.363 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.256 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.842 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.373 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time: 19.459 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0      | Nette: 2.0.18   | Time:  2.308 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1      | Nette: 2.1.9    | Time:  0.977 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2      | NDB: ~2.2.0     | Time:  0.974 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.123 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.351 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM       | NotORM: dev-master | Time:  0.557 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.057 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2    | Doctrine: 2.4.2 | Time:  3.616 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0      | Nette: 2.0.18   | Time: 13.722 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.283 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.232 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.329 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.315 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.750 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.290 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time: 18.425 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0      | Nette: 2.0.18   | Time: 14.151 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1      | Nette: 2.1.9    | Time:  1.203 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.154 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.278 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.268 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM       | NotORM: dev-master | Time:  4.787 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.162 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2    | Doctrine: 2.4.2 | Time:  5.941 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0      | Nette: 2.0.18   | Time: 16.772 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.452 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.393 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.625 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.637 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  6.050 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.405 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time: 20.595 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0      | Nette: 2.0.18   | Time: 17.689 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1      | Nette: 2.1.9    | Time:  1.370 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2      | NDB: ~2.2.0     | Time:  1.376 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3      | NDB: ~2.3.0     | Time:  1.491 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev  | NDB: 2.3.0@dev  | Time:  1.435 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM       | NotORM: dev-master | Time:  5.877 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper   | LeanMapper: ~2.1.0 | Time:  1.262 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2    | Doctrine: 2.4.2 | Time:  6.804 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 13.759 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.234 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.217 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.319 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.309 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  4.863 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.206 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time: 17.460 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.191 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.177 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.284 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.205 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.178 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  4.500 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.110 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.766 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.411 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.219 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.176 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.343 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.231 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.564 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.174 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 16.353 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.216 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  0.998 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.990 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.111 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.114 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.551 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  0.982 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  3.211 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 16.442 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.429 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.433 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.582 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.596 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  5.717 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.448 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time: 19.995 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 17.338 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.458 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.456 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.504 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.554 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  5.732 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.376 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time:  6.675 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.092 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.246 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.211 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.314 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.305 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.114 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.192 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time: 18.311 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.544 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.220 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.209 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.337 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.317 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.270 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.546 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.794 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 13.691 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.208 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.154 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.286 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.262 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  4.733 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.174 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time: 16.865 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 12.480 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.011 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.994 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.062 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.105 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  4.254 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.047 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.017 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.039 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.251 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.214 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.434 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.407 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.095 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.137 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time: 17.353 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.322 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.232 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.191 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.324 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.409 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.479 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.189 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.697 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 18.542 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.560 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.531 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.662 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.618 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  5.995 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.517 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time: 21.124 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 18.412 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.507 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.486 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.599 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.582 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  6.042 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.520 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time:  7.294 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.277 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.137 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.265 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.156 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.055 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.495 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.037 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 14.978 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  1.863 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  0.806 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.812 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  0.899 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  0.919 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.457 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  0.801 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  2.789 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 12.550 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.098 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.048 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.154 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.142 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  4.313 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.009 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time: 15.708 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 13.104 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.036 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.021 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.108 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.070 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  4.419 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.015 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.286 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 11.842 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.108 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.067 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.131 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.122 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  4.270 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.073 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time: 16.779 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 12.873 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.146 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.063 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.167 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.242 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  4.287 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.161 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.643 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.680 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.146 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.107 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.455 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.240 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.550 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.152 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 19.169 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.379 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.256 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.927 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.026 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.035 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.526 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.196 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  3.170 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.265 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.152 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.124 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.195 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.153 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.558 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.194 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 15.562 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.037 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  0.843 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.889 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.115 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.009 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.519 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  0.947 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  3.153 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 13.891 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.293 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.255 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.352 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.397 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  4.955 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.200 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time: 18.287 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.249 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.188 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.201 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.301 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.275 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  4.772 s | Memory: 13.2 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.206 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.764 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.906 s | Memory: 18.2 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.285 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.219 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.342 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.305 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.284 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.310 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time: 19.691 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 16.325 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.542 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.432 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.510 s | Memory: 16.5 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.691 s | Memory: 16.5 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.467 s | Memory: 13.1 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.204 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.802 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.848 s | Memory: 18.3 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.353 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.259 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.350 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.447 s | Memory: 19.1 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.427 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.219 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time: 18.042 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 15.866 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.297 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.290 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.441 s | Memory: 16.6 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.423 s | Memory: 16.6 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  5.852 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.316 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time:  6.163 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 12.824 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.102 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.053 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.130 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.110 s | Memory: 19.1 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  4.207 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.091 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time: 16.030 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 12.947 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.221 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.176 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.293 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.278 s | Memory: 16.6 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  4.906 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.105 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.473 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 18.269 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.582 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.535 s | Memory: 16.9 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.656 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.639 s | Memory: 19.1 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  6.164 s | Memory: 13.1 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.537 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time: 21.601 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 19.204 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.556 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.494 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.653 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.658 s | Memory: 16.5 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  6.428 s | Memory: 13.1 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.503 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time:  7.357 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.043 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.129 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.059 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.319 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.230 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.542 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.207 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 17.244 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.165 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  0.940 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.949 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.039 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  0.971 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.489 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  0.864 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  3.170 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.489 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.425 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.353 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.528 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.496 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.658 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.451 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 16.451 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.383 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.244 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.142 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.258 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.311 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.622 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.295 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  3.591 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 17.684 s | Memory: 18.3 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.582 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.590 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.694 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.710 s | Memory: 19.1 MB | PHP: 5.5.21
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  2.334 s | Memory: 22.1 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  6.659 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.517 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time: 21.184 s | Memory: 37.1 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 17.985 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1       | Nette: 2.1.9         | Time:  1.532 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.398 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.568 s | Memory: 16.6 MB | PHP: 5.5.21
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.623 s | Memory: 16.6 MB | PHP: 5.5.21
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  1.688 s | Memory: 21.9 MB | PHP: 5.5.21
+NotORM        | NotORM: dev-master   | Time:  6.264 s | Memory: 13.2 MB | PHP: 5.5.21
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.392 s | Memory: 16.8 MB | PHP: 5.5.21
+Doctrine2     | Doctrine: 2.4.2      | Time:  6.802 s | Memory: 35.1 MB | PHP: 5.5.21
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 21.240 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.766 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.746 s | Memory: 16.9 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  2.173 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.970 s | Memory: 19.1 MB | PHP: 5.4.37
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  2.752 s | Memory: 22.1 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  6.701 s | Memory: 13.1 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.832 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time: 32.830 s | Memory: 37.1 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 23.437 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1       | Nette: 2.1.9         | Time:  1.902 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.672 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.997 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.767 s | Memory: 16.5 MB | PHP: 5.4.37
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  2.322 s | Memory: 21.9 MB | PHP: 5.4.37
+NotORM        | NotORM: dev-master   | Time:  7.224 s | Memory: 13.1 MB | PHP: 5.4.37
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.642 s | Memory: 16.8 MB | PHP: 5.4.37
+Doctrine2     | Doctrine: 2.4.2      | Time:  8.508 s | Memory: 35.1 MB | PHP: 5.4.37
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  3.016 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.657 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.641 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.869 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.748 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  3.407 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.782 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.773 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 19.894 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.623 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.317 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.351 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.522 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.498 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  1.979 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.721 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.451 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  4.086 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.160 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  1.084 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.125 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.242 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.140 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  2.350 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.549 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.170 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time: 16.683 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time:  2.196 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1       | Nette: 2.1.9         | Time:  0.981 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2       | NDB: ~2.2.0          | Time:  0.956 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.074 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.147 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  1.306 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NotORM        | NotORM: dev-master   | Time:  0.512 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  0.926 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+Doctrine2     | Doctrine: 2.4.2      | Time:  3.266 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+First run (create cache files)
+NDB 2.0       | Nette: 2.0.18        | Time: 14.549 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.317 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.345 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.329 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.317 s | Memory: 19.1 MB | PHP: 5.6.5
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  1.936 s | Memory: 22.3 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  5.309 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.341 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time: 23.342 s | Memory: 37.2 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0       | Nette: 2.0.18        | Time: 16.290 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1       | Nette: 2.1.9         | Time:  1.325 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2       | NDB: ~2.2.0          | Time:  1.413 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3       | NDB: ~2.3.0          | Time:  1.374 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev   | NDB: 2.3.0@dev       | Time:  1.464 s | Memory: 16.6 MB | PHP: 5.6.5
+Nextras\Orm   | Nextras\Orm: 1.0.0-beta* | Time:  1.629 s | Memory: 22.1 MB | PHP: 5.6.5
+NotORM        | NotORM: dev-master   | Time:  5.370 s | Memory: 13.0 MB | PHP: 5.6.5
+LeanMapper    | LeanMapper: ~2.1.0   | Time:  1.244 s | Memory: 16.8 MB | PHP: 5.6.5
+Doctrine2     | Doctrine: 2.4.2      | Time:  5.779 s | Memory: 35.2 MB | PHP: 5.6.5
+
+
+

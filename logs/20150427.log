@@ -1,0 +1,280 @@
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.344 | RAM: 61836076 kB
+First run (create cache files)
+
+Fatal error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+NDB 2.1         | Nette: 2.1.9              | Time:  0.235 s | Memory: 12.6 MB | PHP: 7.0.0-dev
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.226 s | Memory: 12.4 MB | PHP: 7.0.0-dev
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.255 s | Memory: 13.9 MB | PHP: 7.0.0-dev
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.250 s | Memory: 13.9 MB | PHP: 7.0.0-dev
+
+Fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+YetORM          | YetORM: ~8.0              | Time:  0.278 s | Memory: 15.2 MB | PHP: 7.0.0-dev
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.176 s | Memory:  9.5 MB | PHP: 7.0.0-dev
+NotORM          | NotORM: dev-master        | Time:  0.255 s | Memory:  7.7 MB | PHP: 7.0.0-dev
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  8.087 s | Memory: 25.6 MB | PHP: 7.0.0-dev
+
+
+Second run (using cache)
+
+Fatal error: Call to undefined function set_magic_quotes_runtime() in /home/travis/build/minetro/db-benchmark/libs/NDB2.0/vendor/nette/nette/Nette/loader.php on line 25
+NDB 2.1         | Nette: 2.1.9              | Time:  0.215 s | Memory: 11.9 MB | PHP: 7.0.0-dev
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.206 s | Memory: 11.8 MB | PHP: 7.0.0-dev
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.238 s | Memory: 13.3 MB | PHP: 7.0.0-dev
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.225 s | Memory: 13.3 MB | PHP: 7.0.0-dev
+
+Fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+YetORM          | YetORM: ~8.0              | Time:  0.267 s | Memory: 14.5 MB | PHP: 7.0.0-dev
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.170 s | Memory:  9.5 MB | PHP: 7.0.0-dev
+NotORM          | NotORM: dev-master        | Time:  0.249 s | Memory:  7.7 MB | PHP: 7.0.0-dev
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  1.782 s | Memory: 24.1 MB | PHP: 7.0.0-dev
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.354 | RAM: 61836076 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time:  9.463 s | Memory: 18.3 MB | PHP: 5.5.21
+NDB 2.1         | Nette: 2.1.9              | Time:  0.871 s | Memory: 17.2 MB | PHP: 5.5.21
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.827 s | Memory: 16.9 MB | PHP: 5.5.21
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.923 s | Memory: 19.1 MB | PHP: 5.5.21
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.888 s | Memory: 19.1 MB | PHP: 5.5.21
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Call Stack:
+    0.0003     258080   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:0
+    0.0096    1681744   2. Nextras\Orm\Mapper\Dbal\DbalMapper->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:36
+
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+
+Call Stack:
+    0.0003     258056   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:0
+    0.0031     636688   2. Nextras\Dbal\Connection->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:25
+    0.0031     638272   3. Nextras\Dbal\Connection->createDriver() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php:51
+
+YetORM          | YetORM: ~8.0              | Time:  1.162 s | Memory: 20.9 MB | PHP: 5.5.21
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.793 s | Memory: 16.8 MB | PHP: 5.5.21
+NotORM          | NotORM: dev-master        | Time:  3.433 s | Memory: 13.2 MB | PHP: 5.5.21
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time: 10.212 s | Memory: 38.4 MB | PHP: 5.5.21
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time: 10.369 s | Memory: 15.7 MB | PHP: 5.5.21
+NDB 2.1         | Nette: 2.1.9              | Time:  0.846 s | Memory: 14.6 MB | PHP: 5.5.21
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.823 s | Memory: 14.3 MB | PHP: 5.5.21
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.892 s | Memory: 16.6 MB | PHP: 5.5.21
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.895 s | Memory: 16.6 MB | PHP: 5.5.21
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Call Stack:
+    0.0003     258080   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:0
+    0.0095    1681744   2. Nextras\Orm\Mapper\Dbal\DbalMapper->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:36
+
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+
+Call Stack:
+    0.0003     258056   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:0
+    0.0030     636688   2. Nextras\Dbal\Connection->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:25
+    0.0030     638272   3. Nextras\Dbal\Connection->createDriver() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php:51
+
+YetORM          | YetORM: ~8.0              | Time:  1.129 s | Memory: 18.4 MB | PHP: 5.5.21
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.815 s | Memory: 16.8 MB | PHP: 5.5.21
+NotORM          | NotORM: dev-master        | Time:  3.500 s | Memory: 13.2 MB | PHP: 5.5.21
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  4.130 s | Memory: 35.8 MB | PHP: 5.5.21
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.052 | RAM: 61836076 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time:  1.346 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1         | Nette: 2.1.9              | Time:  0.830 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.838 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.809 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.771 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+Warning: __construct() expects exactly 2 parameters, 1 given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, Nette\Database\Context given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Fatal error: Class undefined: Nextras\Dbal\Drivers\Mysql\MysqlDriver in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+YetORM          | YetORM: ~8.0              | Time:  1.017 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.718 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | NotORM: dev-master        | Time:  0.340 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  9.468 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time:  1.154 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1         | Nette: 2.1.9              | Time:  0.606 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.604 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.676 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.679 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Warning: __construct() expects exactly 2 parameters, 1 given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, Nette\Database\Context given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Fatal error: Class undefined: Nextras\Dbal\Drivers\Mysql\MysqlDriver in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+YetORM          | YetORM: ~8.0              | Time:  0.923 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.611 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | NotORM: dev-master        | Time:  0.329 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  1.978 s | Memory: 12.0 MB | PHP: 5.6.99-hhvm
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.110 | RAM: 61836076 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time:  8.594 s | Memory: 18.2 MB | PHP: 5.4.37
+NDB 2.1         | Nette: 2.1.9              | Time:  0.810 s | Memory: 17.1 MB | PHP: 5.4.37
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.821 s | Memory: 16.8 MB | PHP: 5.4.37
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.879 s | Memory: 19.1 MB | PHP: 5.4.37
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.867 s | Memory: 19.1 MB | PHP: 5.4.37
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Call Stack:
+    0.0003     257576   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:0
+    0.0094    1676976   2. Nextras\Orm\Mapper\Dbal\DbalMapper->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:36
+
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+
+Call Stack:
+    0.0002     257504   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:0
+    0.0030     636224   2. Nextras\Dbal\Connection->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:25
+    0.0030     637960   3. Nextras\Dbal\Connection->createDriver() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php:51
+
+YetORM          | YetORM: ~8.0              | Time:  1.115 s | Memory: 20.9 MB | PHP: 5.4.37
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.761 s | Memory: 16.8 MB | PHP: 5.4.37
+NotORM          | NotORM: dev-master        | Time:  3.110 s | Memory: 13.1 MB | PHP: 5.4.37
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time: 10.233 s | Memory: 38.3 MB | PHP: 5.4.37
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time:  9.551 s | Memory: 15.7 MB | PHP: 5.4.37
+NDB 2.1         | Nette: 2.1.9              | Time:  0.835 s | Memory: 14.6 MB | PHP: 5.4.37
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.806 s | Memory: 14.3 MB | PHP: 5.4.37
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.874 s | Memory: 16.5 MB | PHP: 5.4.37
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.855 s | Memory: 16.5 MB | PHP: 5.4.37
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Call Stack:
+    0.0003     257576   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:0
+    0.0096    1676976   2. Nextras\Orm\Mapper\Dbal\DbalMapper->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:36
+
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+
+Call Stack:
+    0.0003     257504   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:0
+    0.0030     636224   2. Nextras\Dbal\Connection->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:25
+    0.0030     637960   3. Nextras\Dbal\Connection->createDriver() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php:51
+
+YetORM          | YetORM: ~8.0              | Time:  1.126 s | Memory: 18.3 MB | PHP: 5.4.37
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.766 s | Memory: 16.8 MB | PHP: 5.4.37
+NotORM          | NotORM: dev-master        | Time:  3.267 s | Memory: 13.1 MB | PHP: 5.4.37
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  4.155 s | Memory: 35.8 MB | PHP: 5.4.37
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.354 | RAM: 61836076 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time:  9.348 s | Memory: 18.3 MB | PHP: 5.6.5
+NDB 2.1         | Nette: 2.1.9              | Time:  0.854 s | Memory: 17.2 MB | PHP: 5.6.5
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.839 s | Memory: 16.9 MB | PHP: 5.6.5
+NDB 2.3         | NDB: ~2.3.0               | Time:  1.506 s | Memory: 19.1 MB | PHP: 5.6.5
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  1.467 s | Memory: 19.1 MB | PHP: 5.6.5
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Call Stack:
+    0.0003     258136   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:0
+    0.0097    1679856   2. Nextras\Orm\Mapper\Dbal\DbalMapper->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:36
+
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+
+Call Stack:
+    0.0003     258112   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:0
+    0.0031     636672   2. Nextras\Dbal\Connection->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:25
+    0.0031     638256   3. Nextras\Dbal\Connection->createDriver() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php:51
+
+YetORM          | YetORM: ~8.0              | Time:  1.208 s | Memory: 21.0 MB | PHP: 5.6.5
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.796 s | Memory: 16.8 MB | PHP: 5.6.5
+NotORM          | NotORM: dev-master        | Time:  3.394 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time: 11.242 s | Memory: 34.8 MB | PHP: 5.6.5
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time:  9.270 s | Memory: 15.8 MB | PHP: 5.6.5
+NDB 2.1         | Nette: 2.1.9              | Time:  0.820 s | Memory: 14.6 MB | PHP: 5.6.5
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.865 s | Memory: 14.3 MB | PHP: 5.6.5
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.899 s | Memory: 16.6 MB | PHP: 5.6.5
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.880 s | Memory: 16.6 MB | PHP: 5.6.5
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, instance of Nette\Database\Context given, called in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php on line 36 and defined in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 46
+
+Call Stack:
+    0.0004     258136   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:0
+    0.0102    1679856   2. Nextras\Orm\Mapper\Dbal\DbalMapper->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/run-employees.php:36
+
+
+Fatal error: Class 'Nextras\Dbal\Drivers\Mysql\MysqlDriver' not found in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+
+Call Stack:
+    0.0003     258112   1. {main}() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:0
+    0.0036     636672   2. Nextras\Dbal\Connection->__construct() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/run-employees.php:25
+    0.0036     638256   3. Nextras\Dbal\Connection->createDriver() /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php:51
+
+YetORM          | YetORM: ~8.0              | Time:  1.090 s | Memory: 18.4 MB | PHP: 5.6.5
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.736 s | Memory: 16.8 MB | PHP: 5.6.5
+NotORM          | NotORM: dev-master        | Time:  3.229 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  3.807 s | Memory: 32.2 MB | PHP: 5.6.5
+
+
+
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.348 | RAM: 61836076 kB
+First run (create cache files)
+NDB 2.0         | Nette: 2.0.18             | Time:  1.413 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1         | Nette: 2.1.9              | Time:  0.907 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.896 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3         | NDB: ~2.3.0               | Time:  1.028 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  1.042 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+Warning: __construct() expects exactly 2 parameters, 1 given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, Nette\Database\Context given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Fatal error: Class undefined: Nextras\Dbal\Drivers\Mysql\MysqlDriver in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+YetORM          | YetORM: ~8.0              | Time:  1.319 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.952 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | NotORM: dev-master        | Time:  0.427 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time: 10.909 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (using cache)
+NDB 2.0         | Nette: 2.0.18             | Time:  1.294 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.1         | Nette: 2.1.9              | Time:  0.798 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.2         | NDB: ~2.2.0               | Time:  0.782 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.3         | NDB: ~2.3.0               | Time:  0.884 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NDB 2.4-dev     | NDB: 2.3.0@dev            | Time:  0.879 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Warning: __construct() expects exactly 2 parameters, 1 given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Catchable fatal error: Argument 1 passed to Nextras\Orm\Mapper\Dbal\DbalMapper::__construct() must be an instance of Nextras\Dbal\Connection, Nette\Database\Context given in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmNDB/vendor/nextras/orm/src/Mapper/Dbal/DbalMapper.php on line 50
+
+Fatal error: Class undefined: Nextras\Dbal\Drivers\Mysql\MysqlDriver in /home/travis/build/minetro/db-benchmark/libs/NextrasOrmDbal/vendor/nextras/dbal/src/Connection.php on line 307
+YetORM          | YetORM: ~8.0              | Time:  1.210 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+LeanMapper      | LeanMapper: ~2.1.0        | Time:  0.856 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | NotORM: dev-master        | Time:  0.424 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | Doctrine: 2.5.0-DEV       | Time:  2.484 s | Memory: 10.0 MB | PHP: 5.6.99-hhvm
+
+
+
