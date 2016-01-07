@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nette/database": "2.3.0"
+    }
+}
