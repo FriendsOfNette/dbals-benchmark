@@ -1,0 +1,28 @@
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.255 | RAM: 61829552 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  8.842 s | Memory: 18.3 MB | PHP: 5.4.37
+NetteDatabase   | ~2.1.0          | Time:  0.904 s | Memory: 17.2 MB | PHP: 5.4.37
+NetteDatabase   | ~2.2.0          | Time:  0.881 s | Memory: 16.9 MB | PHP: 5.4.37
+NetteDatabase   | ~2.3.0          | Time:  0.878 s | Memory: 19.3 MB | PHP: 5.4.37
+Install library using `installall` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.0            | Time:  1.392 s | Memory: 25.3 MB | PHP: 5.4.37
+YetORM          | ~8.0            | Time:  1.179 s | Memory: 21.1 MB | PHP: 5.4.37
+LeanMapper      | ~2.0            | Time:  0.847 s | Memory: 17.3 MB | PHP: 5.4.37
+NotORM          | dev-master      | Time:  3.518 s | Memory: 13.1 MB | PHP: 5.4.37
+Doctrine2       | ~2.4.0          | Time:  8.603 s | Memory: 24.4 MB | PHP: 5.4.37
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  9.468 s | Memory: 15.8 MB | PHP: 5.4.37
+NetteDatabase   | ~2.1.0          | Time:  0.939 s | Memory: 14.6 MB | PHP: 5.4.37
+NetteDatabase   | ~2.2.0          | Time:  0.921 s | Memory: 14.4 MB | PHP: 5.4.37
+NetteDatabase   | ~2.3.0          | Time:  0.928 s | Memory: 16.7 MB | PHP: 5.4.37
+Install library using `installall` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.0            | Time:  1.243 s | Memory: 25.0 MB | PHP: 5.4.37
+YetORM          | ~8.0            | Time:  1.274 s | Memory: 18.5 MB | PHP: 5.4.37
+LeanMapper      | ~2.0            | Time:  0.974 s | Memory: 17.3 MB | PHP: 5.4.37
+NotORM          | dev-master      | Time:  3.717 s | Memory: 13.1 MB | PHP: 5.4.37
+Doctrine2       | ~2.4.0          | Time:  1.497 s | Memory: 21.8 MB | PHP: 5.4.37
+
+
+
