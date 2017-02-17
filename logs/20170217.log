@@ -1136,3 +1136,53 @@ Doctrine2       | ^2.4.0          | Time:  2.686 s | Memory:  6.0 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.133 | RAM: 61829552 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  9.470 s | Memory: 18.3 MB | PHP: 5.5.21
+NetteDatabase   | ~2.1.0          | Time:  0.973 s | Memory: 17.2 MB | PHP: 5.5.21
+NetteDatabase   | ~2.2.0          | Time:  0.870 s | Memory: 16.9 MB | PHP: 5.5.21
+NetteDatabase   | ~2.3.0          | Time:  0.908 s | Memory: 19.3 MB | PHP: 5.5.21
+Skip:This library needs >=5.6.0, current version is 5.5.21.
+Skip:This library needs >=7.0.0, current version is 5.5.21.
+Nextras\Orm     | ~1.1.0          | Time:  1.461 s | Memory: 25.3 MB | PHP: 5.5.21
+
+Fatal error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0002     254728   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0276    2586056   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0276    2586288   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0514    3658624   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0514    3659024   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+    0.0514    3659088   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+
+LeanMapper      | ^2.2.0          | Time:  0.839 s | Memory: 17.3 MB | PHP: 5.5.21
+NotORM          | dev-master      | Time:  3.863 s | Memory: 13.2 MB | PHP: 5.5.21
+Install library using `install` for all or manually `composer install` for every library
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  9.923 s | Memory: 15.8 MB | PHP: 5.5.21
+NetteDatabase   | ~2.1.0          | Time:  0.925 s | Memory: 14.6 MB | PHP: 5.5.21
+NetteDatabase   | ~2.2.0          | Time:  0.913 s | Memory: 14.4 MB | PHP: 5.5.21
+NetteDatabase   | ~2.3.0          | Time:  0.904 s | Memory: 16.8 MB | PHP: 5.5.21
+Skip:This library needs >=5.6.0, current version is 5.5.21.
+Skip:This library needs >=7.0.0, current version is 5.5.21.
+Nextras\Orm     | ~1.1.0          | Time:  1.234 s | Memory: 25.0 MB | PHP: 5.5.21
+
+Fatal error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0003     254728   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0148    2473456   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0148    2473688   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0400    3632440   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0400    3632840   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+    0.0400    3632904   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+
+LeanMapper      | ^2.2.0          | Time:  0.796 s | Memory: 17.3 MB | PHP: 5.5.21
+NotORM          | dev-master      | Time:  3.833 s | Memory: 13.2 MB | PHP: 5.5.21
+Install library using `install` for all or manually `composer install` for every library
+
+
+
