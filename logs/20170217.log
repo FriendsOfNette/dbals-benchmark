@@ -1074,3 +1074,65 @@ Doctrine2       | ^2.4.0          | Time:  2.078 s | Memory: 16.8 MB | PHP: 7.0.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.345 | RAM: 61829552 kB
+First run (create cache files)
+
+Fatal error: Uncaught exception 'Nette\MemberAccessException' with message 'Call to undefined method Nette\Database\Connection::setCacheStorage().' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php:70
+Stack trace:
+#0 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/SmartObject.php(76): Nette\Utils\ObjectMixin::strictCall()
+#1 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php(20): Nette\Database\Connection->__call()
+#2 {main}
+
+Fatal error: Class undefined: Nette\Database\Reflection\DiscoveredReflection in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php on line 23
+
+Fatal error: Class undefined: Nette\Database\Reflection\DiscoveredReflection in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php on line 23
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Uncaught exception 'Nette\DirectoryNotFoundException' with message 'Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found.' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php:69
+Stack trace:
+#0 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php(14): Nette\Caching\Storages\FileStorage->__construct()
+#1 {main}
+Skip:This library needs >=7.0.0, current version is 5.6.99-hhvm.
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+LeanMapper      | ^2.2.0          | Time:  1.655 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.677 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ^2.4.0          | Time: 17.628 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (use cache)
+
+Fatal error: Uncaught exception 'Nette\MemberAccessException' with message 'Call to undefined method Nette\Database\Connection::setCacheStorage().' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php:70
+Stack trace:
+#0 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/SmartObject.php(76): Nette\Utils\ObjectMixin::strictCall()
+#1 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php(20): Nette\Database\Connection->__call()
+#2 {main}
+
+Fatal error: Class undefined: Nette\Database\Reflection\DiscoveredReflection in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php on line 23
+
+Fatal error: Class undefined: Nette\Database\Reflection\DiscoveredReflection in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php on line 23
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Uncaught exception 'Nette\DirectoryNotFoundException' with message 'Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found.' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php:69
+Stack trace:
+#0 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php(14): Nette\Caching\Storages\FileStorage->__construct()
+#1 {main}
+Skip:This library needs >=7.0.0, current version is 5.6.99-hhvm.
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+LeanMapper      | ^2.2.0          | Time:  1.402 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.701 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ^2.4.0          | Time:  2.686 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+
