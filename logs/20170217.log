@@ -1356,3 +1356,73 @@ Doctrine2       | ~2.4.0          | Time:  1.438 s | Memory:  6.0 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.473 | RAM: 61829552 kB
+First run (create cache files)
+Skip:This library needs <7.0.0, current version is 7.0.15.
+NetteDatabase   | ~2.1.0          | Time:  1.713 s | Memory: 14.0 MB | PHP: 7.0.15
+NetteDatabase   | ~2.2.0          | Time:  2.395 s | Memory: 14.1 MB | PHP: 7.0.15
+NetteDatabase   | ~2.3.0          | Time:  1.520 s | Memory: 15.7 MB | PHP: 7.0.15
+
+Fatal error: Uncaught Nette\DirectoryNotFoundException: Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Nette\DirectoryNotFoundException: Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Call Stack:
+    0.0004     377208   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:0
+    0.0043     633056   2. Nette\Caching\Storages\FileStorage->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:15
+
+Install library using `install` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.1.0          | Time:  2.123 s | Memory: 19.5 MB | PHP: 7.0.15
+
+Fatal error: Uncaught Error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0003     377440   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.2745    2163256   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.2745    2163256   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.3162    2924328   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.3162    2924704   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+    0.3162    2925096   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+
+LeanMapper      | ^2.2.0          | Time:  1.298 s | Memory: 12.8 MB | PHP: 7.0.15
+NotORM          | dev-master      | Time:  4.887 s | Memory:  7.5 MB | PHP: 7.0.15
+Doctrine2       | ~2.4.0          | Time: 14.597 s | Memory: 18.2 MB | PHP: 7.0.15
+
+
+Second run (use cache)
+Skip:This library needs <7.0.0, current version is 7.0.15.
+NetteDatabase   | ~2.1.0          | Time:  2.352 s | Memory: 11.8 MB | PHP: 7.0.15
+NetteDatabase   | ~2.2.0          | Time:  1.485 s | Memory: 11.8 MB | PHP: 7.0.15
+NetteDatabase   | ~2.3.0          | Time:  1.438 s | Memory: 13.4 MB | PHP: 7.0.15
+
+Fatal error: Uncaught Nette\DirectoryNotFoundException: Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Nette\DirectoryNotFoundException: Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Call Stack:
+    0.0003     377208   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:0
+    0.0043     633056   2. Nette\Caching\Storages\FileStorage->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:15
+
+Install library using `install` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.1.0          | Time:  2.495 s | Memory: 19.2 MB | PHP: 7.0.15
+
+Fatal error: Uncaught Error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0003     377440   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0252    2094152   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0254    2094152   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0691    2924128   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0691    2924504   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+    0.0691    2924896   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+
+LeanMapper      | ^2.2.0          | Time:  1.692 s | Memory: 12.8 MB | PHP: 7.0.15
+NotORM          | dev-master      | Time:  4.736 s | Memory:  7.5 MB | PHP: 7.0.15
+Doctrine2       | ~2.4.0          | Time:  1.825 s | Memory: 16.5 MB | PHP: 7.0.15
+
+
+
