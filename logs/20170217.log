@@ -134,3 +134,47 @@ Doctrine2       | ~2.4.0          | Time:  1.455 s | Memory: 20.6 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.352 | RAM: 61829552 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  1.537 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.1.0          | Time:  1.310 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+Install library using `installall` for all or manually `composer install` for every library
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+LeanMapper      | ~2.0            | Time:  1.075 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.411 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ~2.4.0          | Time:  9.661 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  1.331 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.1.0          | Time:  0.736 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+Install library using `installall` for all or manually `composer install` for every library
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+LeanMapper      | ~2.0            | Time:  0.755 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.390 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ~2.4.0          | Time:  1.474 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+
