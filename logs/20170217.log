@@ -850,3 +850,129 @@ Doctrine2       | ^2.4.0          | Time:  1.711 s | Memory: 21.3 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2783.084 | RAM: 61829552 kB
+First run (create cache files)
+
+Fatal error: Uncaught exception 'Nette\MemberAccessException' with message 'Call to undefined method Nette\Database\Connection::setCacheStorage().' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 100
+
+Nette\MemberAccessException: Call to undefined method Nette\Database\Connection::setCacheStorage(). in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 100
+
+Call Stack:
+    0.0002     252680   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:0
+    0.0129    2095120   2. Nette\Database\Connection->setCacheStorage() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0129    2095472   3. Nette\Object->__call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0129    2095472   4. Nette\Utils\ObjectMixin::call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/Object.php:74
+
+
+Deprecated: Nette\Database\Reflection\DiscoveredReflection() is deprecated; use Nette\Database\Conventions\DiscoveredConventions instead. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php on line 34
+
+Call Stack:
+    0.0002     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:0
+    0.0134    2205192   2. Nette\Database\Reflection\DiscoveredReflection->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:23
+    0.0134    2205640   3. trigger_error() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php:34
+
+
+Catchable fatal error: Argument 2 passed to Nette\Database\Context::__construct() must be an instance of Nette\Database\IStructure, instance of Nette\Database\Reflection\DiscoveredReflection given, called in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php on line 25 and defined in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/vendor/nette/database/src/Database/Context.php on line 32
+
+Call Stack:
+    0.0002     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:0
+    0.0142    2300392   2. Nette\Database\Context->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:25
+
+
+Deprecated: Nette\Database\Reflection\DiscoveredReflection() is deprecated; use Nette\Database\Conventions\DiscoveredConventions instead. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php on line 34
+
+Call Stack:
+    0.0003     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+    0.0069    1162752   2. Nette\Database\Reflection\DiscoveredReflection->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:23
+    0.0069    1163200   3. trigger_error() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php:34
+
+
+Catchable fatal error: Argument 2 passed to Nette\Database\Context::__construct() must be an instance of Nette\Database\IStructure, instance of Nette\Database\Reflection\DiscoveredReflection given, called in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php on line 25 and defined in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Context.php on line 32
+
+Call Stack:
+    0.0003     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+    0.0077    1260112   2. Nette\Database\Context->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:25
+
+NetteDatabase   | ^2.3.0          | Time:  0.886 s | Memory: 19.3 MB | PHP: 5.4.37
+Install library using `install` for all or manually `composer install` for every library
+Skip:This library needs >=7.0.0, current version is 5.4.37.
+Nextras\Orm     | ^1.0.0          | Time:  1.368 s | Memory: 25.3 MB | PHP: 5.4.37
+
+Fatal error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0002     254152   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0272    2580272   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0272    2580368   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0511    3652328   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0511    3652784   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+    0.0511    3652816   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+
+LeanMapper      | ^2.2.0          | Time:  0.914 s | Memory: 17.3 MB | PHP: 5.4.37
+NotORM          | dev-master      | Time:  3.459 s | Memory: 13.2 MB | PHP: 5.4.37
+Install library using `install` for all or manually `composer install` for every library
+
+
+Second run (use cache)
+
+Fatal error: Uncaught exception 'Nette\MemberAccessException' with message 'Call to undefined method Nette\Database\Connection::setCacheStorage().' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 100
+
+Nette\MemberAccessException: Call to undefined method Nette\Database\Connection::setCacheStorage(). in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 100
+
+Call Stack:
+    0.0002     252680   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:0
+    0.0124    2095120   2. Nette\Database\Connection->setCacheStorage() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0124    2095472   3. Nette\Object->__call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0124    2095472   4. Nette\Utils\ObjectMixin::call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/Object.php:74
+
+
+Deprecated: Nette\Database\Reflection\DiscoveredReflection() is deprecated; use Nette\Database\Conventions\DiscoveredConventions instead. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php on line 34
+
+Call Stack:
+    0.0002     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:0
+    0.0136    2205192   2. Nette\Database\Reflection\DiscoveredReflection->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:23
+    0.0136    2205640   3. trigger_error() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php:34
+
+
+Catchable fatal error: Argument 2 passed to Nette\Database\Context::__construct() must be an instance of Nette\Database\IStructure, instance of Nette\Database\Reflection\DiscoveredReflection given, called in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php on line 25 and defined in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/vendor/nette/database/src/Database/Context.php on line 32
+
+Call Stack:
+    0.0002     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:0
+    0.0143    2300392   2. Nette\Database\Context->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:25
+
+
+Deprecated: Nette\Database\Reflection\DiscoveredReflection() is deprecated; use Nette\Database\Conventions\DiscoveredConventions instead. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php on line 34
+
+Call Stack:
+    0.0002     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+    0.0070    1162752   2. Nette\Database\Reflection\DiscoveredReflection->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:23
+    0.0070    1163200   3. trigger_error() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php:34
+
+
+Catchable fatal error: Argument 2 passed to Nette\Database\Context::__construct() must be an instance of Nette\Database\IStructure, instance of Nette\Database\Reflection\DiscoveredReflection given, called in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php on line 25 and defined in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Context.php on line 32
+
+Call Stack:
+    0.0002     251544   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+    0.0079    1260112   2. Nette\Database\Context->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:25
+
+NetteDatabase   | ^2.3.0          | Time:  0.933 s | Memory: 16.8 MB | PHP: 5.4.37
+Install library using `install` for all or manually `composer install` for every library
+Skip:This library needs >=7.0.0, current version is 5.4.37.
+Nextras\Orm     | ^1.0.0          | Time:  1.200 s | Memory: 25.0 MB | PHP: 5.4.37
+
+Fatal error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0002     254152   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0143    2467672   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0143    2467768   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0470    3626016   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0470    3626472   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+    0.0471    3626504   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:65
+
+LeanMapper      | ^2.2.0          | Time:  0.820 s | Memory: 17.3 MB | PHP: 5.4.37
+NotORM          | dev-master      | Time:  3.420 s | Memory: 13.2 MB | PHP: 5.4.37
+Install library using `install` for all or manually `composer install` for every library
+
+
+
