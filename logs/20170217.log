@@ -1532,3 +1532,57 @@ Install library using `install` for all or manually `composer install` for every
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.394 | RAM: 61829552 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  1.717 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.1.0          | Time:  0.956 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Uncaught exception 'Nette\DirectoryNotFoundException' with message 'Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found.' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php:69
+Stack trace:
+#0 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php(15): Nette\Caching\Storages\FileStorage->__construct()
+#1 {main}
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.6.99-hhvm.
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+LeanMapper      | ^2.2.0          | Time:  0.986 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.437 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ~2.4.0          | Time: 10.280 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  1.385 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+NetteDatabase   | ~2.1.0          | Time:  0.762 s | Memory:  8.0 MB | PHP: 5.6.99-hhvm
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/Utils/Callback.php on line 98
+Georgi Facello (10001)
+Salaries:
+
+Fatal error: Uncaught exception 'Nette\DirectoryNotFoundException' with message 'Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found.' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php:69
+Stack trace:
+#0 /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php(15): Nette\Caching\Storages\FileStorage->__construct()
+#1 {main}
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.6.99-hhvm.
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+
+Fatal error: Unpacking unsupported for calls to functions that take any arguments by reference in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php on line 98
+LeanMapper      | ^2.2.0          | Time:  0.794 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+NotORM          | dev-master      | Time:  0.421 s | Memory:  4.0 MB | PHP: 5.6.99-hhvm
+Doctrine2       | ~2.4.0          | Time:  1.484 s | Memory:  6.0 MB | PHP: 5.6.99-hhvm
+
+
+
