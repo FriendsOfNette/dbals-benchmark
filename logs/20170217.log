@@ -358,3 +358,107 @@ Doctrine2       | ~2.4.0          | Time:  2.705 s | Memory: 21.9 MB | PHP: 5.5.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.342 | RAM: 61829552 kB
+First run (create cache files)
+
+Fatal error: Uncaught exception 'Nette\MemberAccessException' with message 'Call to undefined method Nette\Database\Connection::setCacheStorage().' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 70
+
+Nette\MemberAccessException: Call to undefined method Nette\Database\Connection::setCacheStorage(). in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 70
+
+Call Stack:
+    0.0002     253344   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:0
+    0.0172    2731432   2. Nette\Database\Connection->setCacheStorage() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0172    2731784   3. Nette\Database\Connection->__call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0175    2737416   4. Nette\Utils\ObjectMixin::strictCall() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/SmartObject.php:76
+
+
+Fatal error: Class 'Nette\Database\Reflection\DiscoveredReflection' not found in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php on line 23
+
+Call Stack:
+    0.0002     252168   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:0
+
+
+Fatal error: Class 'Nette\Database\Reflection\DiscoveredReflection' not found in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php on line 23
+
+Call Stack:
+    0.0002     252168   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+
+NetteDatabase   | ^2.3.0          | Time:  2.158 s | Memory: 17.9 MB | PHP: 5.6.5
+
+Fatal error: Uncaught exception 'Nette\DirectoryNotFoundException' with message 'Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found.' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Nette\DirectoryNotFoundException: Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Call Stack:
+    0.0002     253032   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:0
+    0.0028     614424   2. Nette\Caching\Storages\FileStorage->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:14
+
+Skip: This library needs >=7.0.0, current version is 5.6.5.Nextras\Orm     | ^1.0.0          | Time:  1.376 s | Memory: 25.4 MB | PHP: 5.6.5
+
+Fatal error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0004     254800   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0343    2823016   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0343    2823248   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0590    3906432   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0590    3906784   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+    0.0590    3907152   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+
+LeanMapper      | ^2.2.0          | Time:  0.873 s | Memory: 17.3 MB | PHP: 5.6.5
+NotORM          | dev-master      | Time:  3.943 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | ^2.4.0          | Time:  8.658 s | Memory: 23.6 MB | PHP: 5.6.5
+
+
+Second run (use cache)
+
+Fatal error: Uncaught exception 'Nette\MemberAccessException' with message 'Call to undefined method Nette\Database\Connection::setCacheStorage().' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 70
+
+Nette\MemberAccessException: Call to undefined method Nette\Database\Connection::setCacheStorage(). in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/ObjectMixin.php on line 70
+
+Call Stack:
+    0.0003     253344   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:0
+    0.0268    2731432   2. Nette\Database\Connection->setCacheStorage() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0268    2731784   3. Nette\Database\Connection->__call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/run-employees.php:20
+    0.0271    2737416   4. Nette\Utils\ObjectMixin::strictCall() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.0/vendor/nette/utils/src/Utils/SmartObject.php:76
+
+
+Fatal error: Class 'Nette\Database\Reflection\DiscoveredReflection' not found in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php on line 23
+
+Call Stack:
+    0.0002     252168   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.1/run-employees.php:0
+
+
+Fatal error: Class 'Nette\Database\Reflection\DiscoveredReflection' not found in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php on line 23
+
+Call Stack:
+    0.0003     252168   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+
+NetteDatabase   | ^2.3.0          | Time:  1.946 s | Memory: 15.4 MB | PHP: 5.6.5
+
+Fatal error: Uncaught exception 'Nette\DirectoryNotFoundException' with message 'Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found.' in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Nette\DirectoryNotFoundException: Directory '/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/temp' not found. in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/vendor/nette/caching/src/Caching/Storages/FileStorage.php on line 69
+
+Call Stack:
+    0.0002     253032   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:0
+    0.0029     614424   2. Nette\Caching\Storages\FileStorage->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.4/run-employees.php:14
+
+Skip: This library needs >=7.0.0, current version is 5.6.5.Nextras\Orm     | ^1.0.0          | Time:  1.413 s | Memory: 25.1 MB | PHP: 5.6.5
+
+Fatal error: Class 'Model\Repository\Entity\Employee' not found in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php on line 52
+
+Call Stack:
+    0.0002     254800   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0181    2701472   2. YetORM\EntityCollection->rewind() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:31
+    0.0181    2701704   3. YetORM\EntityCollection->loadData() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:158
+    0.0491    3880216   4. Nette\Utils\Callback::invoke() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/EntityCollection.php:87
+    0.0491    3880568   5. call_user_func_array:{/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+    0.0491    3880936   6. YetORM\Repository->createEntity() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/Utils/Callback.php:62
+
+LeanMapper      | ^2.2.0          | Time:  0.781 s | Memory: 17.3 MB | PHP: 5.6.5
+NotORM          | dev-master      | Time:  3.156 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | ^2.4.0          | Time:  1.972 s | Memory: 21.3 MB | PHP: 5.6.5
+
+
+
