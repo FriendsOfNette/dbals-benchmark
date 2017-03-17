@@ -118,3 +118,33 @@ Doctrine2       | ~2.4.0          | Time:  1.556 s | Memory: 20.6 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.265 | RAM: 61829552 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.3.
+NetteDatabase   | ~2.1.0          | Time:  1.028 s | Memory: 10.6 MB | PHP: 7.1.3
+NetteDatabase   | ~2.2.0          | Time:  1.560 s | Memory: 10.9 MB | PHP: 7.1.3
+NetteDatabase   | ~2.3.0          | Time:  1.010 s | Memory: 12.3 MB | PHP: 7.1.3
+NetteDatabase   | ~2.4.0          | Time:  2.291 s | Memory: 11.1 MB | PHP: 7.1.3
+NetteDatabase   | dev-master      | Time:  2.938 s | Memory: 11.1 MB | PHP: 7.1.3
+Nextras\Orm     | ~1.1.0          | Time:  2.038 s | Memory: 16.5 MB | PHP: 7.1.3
+YetORM          | ~8.0.0          | Time:  2.622 s | Memory: 11.5 MB | PHP: 7.1.3
+LeanMapper      | ~2.2.0          | Time:  0.971 s | Memory:  9.3 MB | PHP: 7.1.3
+NotORM          | dev-master      | Time:  2.805 s | Memory:  6.7 MB | PHP: 7.1.3
+Doctrine2       | ~2.4.0          | Time:  9.067 s | Memory: 13.2 MB | PHP: 7.1.3
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.3.
+NetteDatabase   | ~2.1.0          | Time:  1.853 s | Memory:  8.5 MB | PHP: 7.1.3
+NetteDatabase   | ~2.2.0          | Time:  1.225 s | Memory:  8.6 MB | PHP: 7.1.3
+NetteDatabase   | ~2.3.0          | Time:  1.248 s | Memory: 10.1 MB | PHP: 7.1.3
+NetteDatabase   | ~2.4.0          | Time:  2.779 s | Memory:  8.8 MB | PHP: 7.1.3
+NetteDatabase   | dev-master      | Time:  4.598 s | Memory:  8.8 MB | PHP: 7.1.3
+Nextras\Orm     | ~1.1.0          | Time:  2.040 s | Memory: 16.4 MB | PHP: 7.1.3
+YetORM          | ~8.0.0          | Time:  3.067 s | Memory:  9.3 MB | PHP: 7.1.3
+LeanMapper      | ~2.2.0          | Time:  0.993 s | Memory:  9.3 MB | PHP: 7.1.3
+NotORM          | dev-master      | Time:  2.549 s | Memory:  6.7 MB | PHP: 7.1.3
+Doctrine2       | ~2.4.0          | Time:  1.680 s | Memory: 12.8 MB | PHP: 7.1.3
+
+
+
