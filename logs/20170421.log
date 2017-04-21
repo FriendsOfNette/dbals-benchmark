@@ -58,3 +58,33 @@ Install library using `install` for all or manually `composer install` for every
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.099 | RAM: 61829552 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time: 10.170 s | Memory: 18.3 MB | PHP: 5.6.5
+NetteDatabase   | ~2.1.0          | Time:  0.913 s | Memory: 17.2 MB | PHP: 5.6.5
+NetteDatabase   | ~2.2.0          | Time:  0.923 s | Memory: 17.1 MB | PHP: 5.6.5
+NetteDatabase   | ~2.3.0          | Time:  0.896 s | Memory: 19.5 MB | PHP: 5.6.5
+NetteDatabase   | ~2.4.0          | Time:  1.925 s | Memory: 17.9 MB | PHP: 5.6.5
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.6.5.
+Nextras\Orm     | ~1.1.0          | Time:  1.394 s | Memory: 25.4 MB | PHP: 5.6.5
+YetORM          | ~8.0.0          | Time:  2.232 s | Memory: 19.3 MB | PHP: 5.6.5
+LeanMapper      | ~2.2.0          | Time:  1.003 s | Memory: 16.9 MB | PHP: 5.6.5
+NotORM          | dev-master      | Time:  3.510 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | ~2.4.0          | Time:  8.858 s | Memory: 23.2 MB | PHP: 5.6.5
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  9.999 s | Memory: 15.8 MB | PHP: 5.6.5
+NetteDatabase   | ~2.1.0          | Time:  0.894 s | Memory: 14.7 MB | PHP: 5.6.5
+NetteDatabase   | ~2.2.0          | Time:  0.932 s | Memory: 14.5 MB | PHP: 5.6.5
+NetteDatabase   | ~2.3.0          | Time:  1.003 s | Memory: 16.9 MB | PHP: 5.6.5
+NetteDatabase   | ~2.4.0          | Time:  1.974 s | Memory: 15.4 MB | PHP: 5.6.5
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.6.5.
+Nextras\Orm     | ~1.1.0          | Time:  1.170 s | Memory: 25.1 MB | PHP: 5.6.5
+YetORM          | ~8.0.0          | Time:  2.240 s | Memory: 16.7 MB | PHP: 5.6.5
+LeanMapper      | ~2.2.0          | Time:  0.938 s | Memory: 16.9 MB | PHP: 5.6.5
+NotORM          | dev-master      | Time:  3.814 s | Memory: 13.0 MB | PHP: 5.6.5
+Doctrine2       | ~2.4.0          | Time:  1.455 s | Memory: 20.6 MB | PHP: 5.6.5
+
+
+
