@@ -1,0 +1,30 @@
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.420 | RAM: 61829552 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.0.20.
+NetteDatabase   | ~2.1.0          | Time:  1.162 s | Memory: 14.0 MB | PHP: 7.0.20
+NetteDatabase   | ~2.2.0          | Time:  1.270 s | Memory: 14.1 MB | PHP: 7.0.20
+NetteDatabase   | ~2.3.0          | Time:  1.056 s | Memory: 15.7 MB | PHP: 7.0.20
+NetteDatabase   | ~2.4.0          | Time:  2.725 s | Memory: 14.5 MB | PHP: 7.0.20
+Install library using `install` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.1.0          | Time:  1.742 s | Memory: 19.5 MB | PHP: 7.0.20
+YetORM          | ~8.0.0          | Time:  2.776 s | Memory: 15.2 MB | PHP: 7.0.20
+LeanMapper      | ~2.2.0          | Time:  1.085 s | Memory: 12.7 MB | PHP: 7.0.20
+NotORM          | dev-master      | Time:  3.071 s | Memory:  7.5 MB | PHP: 7.0.20
+Doctrine2       | ~2.4.0          | Time:  8.556 s | Memory: 18.2 MB | PHP: 7.0.20
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.0.20.
+NetteDatabase   | ~2.1.0          | Time:  1.048 s | Memory: 11.8 MB | PHP: 7.0.20
+NetteDatabase   | ~2.2.0          | Time:  1.097 s | Memory: 11.8 MB | PHP: 7.0.20
+NetteDatabase   | ~2.3.0          | Time:  1.177 s | Memory: 13.4 MB | PHP: 7.0.20
+NetteDatabase   | ~2.4.0          | Time:  2.463 s | Memory: 12.2 MB | PHP: 7.0.20
+Install library using `install` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.1.0          | Time:  1.226 s | Memory: 19.3 MB | PHP: 7.0.20
+YetORM          | ~8.0.0          | Time:  2.944 s | Memory: 12.8 MB | PHP: 7.0.20
+LeanMapper      | ~2.2.0          | Time:  1.530 s | Memory: 12.7 MB | PHP: 7.0.20
+NotORM          | dev-master      | Time:  4.640 s | Memory:  7.5 MB | PHP: 7.0.20
+Doctrine2       | ~2.4.0          | Time:  2.296 s | Memory: 16.5 MB | PHP: 7.0.20
+
+
+
