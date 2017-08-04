@@ -88,3 +88,33 @@ Doctrine2       | ~2.4.0          | Time:  1.587 s | Memory: 16.5 MB | PHP: 7.0.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.425 | RAM: 61829552 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  9.518 s | Memory: 18.3 MB | PHP: 5.5.21
+NetteDatabase   | ~2.1.0          | Time:  0.976 s | Memory: 17.2 MB | PHP: 5.5.21
+NetteDatabase   | ~2.2.0          | Time:  1.372 s | Memory: 16.9 MB | PHP: 5.5.21
+NetteDatabase   | ~2.3.0          | Time:  1.015 s | Memory: 19.3 MB | PHP: 5.5.21
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.5.21.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.5.21.
+Nextras\Orm     | ~1.1.0          | Time:  1.571 s | Memory: 25.3 MB | PHP: 5.5.21
+YetORM          | ~8.0.0          | Time:  1.251 s | Memory: 21.1 MB | PHP: 5.5.21
+LeanMapper      | ~2.2.0          | Time:  0.883 s | Memory: 16.9 MB | PHP: 5.5.21
+NotORM          | dev-master      | Time:  3.956 s | Memory: 13.2 MB | PHP: 5.5.21
+Install library using `install` for all or manually `composer install` for every library
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time: 10.004 s | Memory: 15.8 MB | PHP: 5.5.21
+NetteDatabase   | ~2.1.0          | Time:  0.839 s | Memory: 14.6 MB | PHP: 5.5.21
+NetteDatabase   | ~2.2.0          | Time:  0.854 s | Memory: 14.4 MB | PHP: 5.5.21
+NetteDatabase   | ~2.3.0          | Time:  0.930 s | Memory: 16.8 MB | PHP: 5.5.21
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.5.21.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.5.21.
+Nextras\Orm     | ~1.1.0          | Time:  1.261 s | Memory: 25.0 MB | PHP: 5.5.21
+YetORM          | ~8.0.0          | Time:  1.196 s | Memory: 18.5 MB | PHP: 5.5.21
+LeanMapper      | ~2.2.0          | Time:  0.875 s | Memory: 16.9 MB | PHP: 5.5.21
+NotORM          | dev-master      | Time:  3.604 s | Memory: 13.2 MB | PHP: 5.5.21
+Install library using `install` for all or manually `composer install` for every library
+
+
+
