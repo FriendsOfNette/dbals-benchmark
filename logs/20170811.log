@@ -88,3 +88,33 @@ Install library using `install` for all or manually `composer install` for every
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.104 | RAM: 61829552 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.0.21.
+NetteDatabase   | ~2.1.0          | Time:  1.542 s | Memory: 14.0 MB | PHP: 7.0.21
+NetteDatabase   | ~2.2.0          | Time:  0.979 s | Memory: 14.1 MB | PHP: 7.0.21
+NetteDatabase   | ~2.3.0          | Time:  1.268 s | Memory: 15.7 MB | PHP: 7.0.21
+NetteDatabase   | ~2.4.0          | Time:  2.298 s | Memory: 14.5 MB | PHP: 7.0.21
+Install library using `install` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.1.0          | Time:  1.325 s | Memory: 19.5 MB | PHP: 7.0.21
+YetORM          | ~8.0.0          | Time:  2.340 s | Memory: 15.2 MB | PHP: 7.0.21
+LeanMapper      | ~2.2.0          | Time:  1.212 s | Memory: 12.7 MB | PHP: 7.0.21
+NotORM          | dev-master      | Time:  3.913 s | Memory:  7.5 MB | PHP: 7.0.21
+Doctrine2       | ~2.4.0          | Time:  8.730 s | Memory: 18.2 MB | PHP: 7.0.21
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.0.21.
+NetteDatabase   | ~2.1.0          | Time:  1.287 s | Memory: 11.8 MB | PHP: 7.0.21
+NetteDatabase   | ~2.2.0          | Time:  1.084 s | Memory: 11.8 MB | PHP: 7.0.21
+NetteDatabase   | ~2.3.0          | Time:  1.163 s | Memory: 13.4 MB | PHP: 7.0.21
+NetteDatabase   | ~2.4.0          | Time:  2.519 s | Memory: 12.2 MB | PHP: 7.0.21
+Install library using `install` for all or manually `composer install` for every library
+Nextras\Orm     | ~1.1.0          | Time:  1.188 s | Memory: 19.3 MB | PHP: 7.0.21
+YetORM          | ~8.0.0          | Time:  2.710 s | Memory: 12.8 MB | PHP: 7.0.21
+LeanMapper      | ~2.2.0          | Time:  1.013 s | Memory: 12.7 MB | PHP: 7.0.21
+NotORM          | dev-master      | Time:  2.899 s | Memory:  7.5 MB | PHP: 7.0.21
+Doctrine2       | ~2.4.0          | Time:  1.381 s | Memory: 16.5 MB | PHP: 7.0.21
+
+
+
