@@ -28,3 +28,33 @@ Doctrine2       | ~2.4.0          | Time: 13.304 s | Memory: 16.5 MB | PHP: 7.0.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.170 | RAM: 61826960 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.8.
+NetteDatabase   | ~2.1.0          | Time:  1.441 s | Memory: 11.7 MB | PHP: 7.1.8
+NetteDatabase   | ~2.2.0          | Time:  1.379 s | Memory: 11.9 MB | PHP: 7.1.8
+NetteDatabase   | ~2.3.0          | Time:  1.313 s | Memory: 13.5 MB | PHP: 7.1.8
+NetteDatabase   | ~2.4.0          | Time:  2.949 s | Memory: 12.3 MB | PHP: 7.1.8
+NetteDatabase   | dev-master      | Time:  3.210 s | Memory: 12.2 MB | PHP: 7.1.8
+Nextras\Orm     | ~1.1.0          | Time:  1.841 s | Memory: 18.0 MB | PHP: 7.1.8
+YetORM          | ~8.0.0          | Time:  3.920 s | Memory: 13.0 MB | PHP: 7.1.8
+LeanMapper      | ~2.2.0          | Time:  1.476 s | Memory: 10.6 MB | PHP: 7.1.8
+NotORM          | dev-master      | Time:  4.608 s | Memory:  7.3 MB | PHP: 7.1.8
+Doctrine2       | ~2.4.0          | Time: 17.076 s | Memory: 18.0 MB | PHP: 7.1.8
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.8.
+NetteDatabase   | ~2.1.0          | Time:  1.424 s | Memory:  9.6 MB | PHP: 7.1.8
+NetteDatabase   | ~2.2.0          | Time:  1.480 s | Memory:  9.6 MB | PHP: 7.1.8
+NetteDatabase   | ~2.3.0          | Time:  1.496 s | Memory: 11.3 MB | PHP: 7.1.8
+NetteDatabase   | ~2.4.0          | Time:  3.101 s | Memory: 10.0 MB | PHP: 7.1.8
+NetteDatabase   | dev-master      | Time:  3.400 s | Memory:  9.9 MB | PHP: 7.1.8
+Nextras\Orm     | ~1.1.0          | Time:  2.080 s | Memory: 17.9 MB | PHP: 7.1.8
+YetORM          | ~8.0.0          | Time:  3.726 s | Memory: 10.7 MB | PHP: 7.1.8
+LeanMapper      | ~2.2.0          | Time:  1.438 s | Memory: 10.6 MB | PHP: 7.1.8
+NotORM          | dev-master      | Time:  4.579 s | Memory:  7.3 MB | PHP: 7.1.8
+Doctrine2       | ~2.4.0          | Time: 17.466 s | Memory: 16.3 MB | PHP: 7.1.8
+
+
+
