@@ -1,0 +1,30 @@
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.018 | RAM: 61826960 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.10.
+NetteDatabase   | ~2.1.0          | Time:  1.079 s | Memory: 11.7 MB | PHP: 7.1.10
+NetteDatabase   | ~2.2.0          | Time:  1.078 s | Memory: 11.9 MB | PHP: 7.1.10
+NetteDatabase   | ~2.3.0          | Time:  0.981 s | Memory: 13.5 MB | PHP: 7.1.10
+NetteDatabase   | ~2.4.0          | Time:  2.713 s | Memory: 12.3 MB | PHP: 7.1.10
+NetteDatabase   | dev-master      | Time:  3.454 s | Memory: 12.3 MB | PHP: 7.1.10
+Nextras\Orm     | ~1.1.0          | Time:  1.811 s | Memory: 18.0 MB | PHP: 7.1.10
+YetORM          | ~8.0.0          | Time:  4.035 s | Memory: 13.0 MB | PHP: 7.1.10
+LeanMapper      | ~2.2.0          | Time:  1.037 s | Memory: 10.6 MB | PHP: 7.1.10
+NotORM          | dev-master      | Time:  3.554 s | Memory:  7.3 MB | PHP: 7.1.10
+Doctrine2       | ~2.4.0          | Time: 13.322 s | Memory: 18.0 MB | PHP: 7.1.10
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.10.
+NetteDatabase   | ~2.1.0          | Time:  1.369 s | Memory:  9.6 MB | PHP: 7.1.10
+NetteDatabase   | ~2.2.0          | Time:  1.300 s | Memory:  9.6 MB | PHP: 7.1.10
+NetteDatabase   | ~2.3.0          | Time:  1.287 s | Memory: 11.3 MB | PHP: 7.1.10
+NetteDatabase   | ~2.4.0          | Time:  3.197 s | Memory: 10.0 MB | PHP: 7.1.10
+NetteDatabase   | dev-master      | Time:  4.794 s | Memory: 10.7 MB | PHP: 7.1.10
+Nextras\Orm     | ~1.1.0          | Time:  1.487 s | Memory: 17.9 MB | PHP: 7.1.10
+YetORM          | ~8.0.0          | Time:  3.051 s | Memory: 10.7 MB | PHP: 7.1.10
+LeanMapper      | ~2.2.0          | Time:  1.207 s | Memory: 10.6 MB | PHP: 7.1.10
+NotORM          | dev-master      | Time:  3.559 s | Memory:  7.3 MB | PHP: 7.1.10
+Doctrine2       | ~2.4.0          | Time: 11.460 s | Memory: 16.3 MB | PHP: 7.1.10
+
+
+
