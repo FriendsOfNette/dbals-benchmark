@@ -88,3 +88,33 @@ Install library using `install` for all or manually `composer install` for every
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2793.121 | RAM: 61826960 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.10.
+NetteDatabase   | ~2.1.0          | Time:  1.420 s | Memory: 11.7 MB | PHP: 7.1.10
+NetteDatabase   | ~2.2.0          | Time:  1.374 s | Memory: 11.9 MB | PHP: 7.1.10
+NetteDatabase   | ~2.3.0          | Time:  1.326 s | Memory: 13.5 MB | PHP: 7.1.10
+NetteDatabase   | ~2.4.0          | Time:  3.391 s | Memory: 12.3 MB | PHP: 7.1.10
+NetteDatabase   | dev-master      | Time:  3.812 s | Memory: 12.3 MB | PHP: 7.1.10
+Nextras\Orm     | ~1.1.0          | Time:  1.961 s | Memory: 18.0 MB | PHP: 7.1.10
+YetORM          | ~8.0.0          | Time:  3.625 s | Memory: 13.0 MB | PHP: 7.1.10
+LeanMapper      | ~2.2.0          | Time:  1.419 s | Memory: 10.6 MB | PHP: 7.1.10
+NotORM          | dev-master      | Time:  4.524 s | Memory:  7.3 MB | PHP: 7.1.10
+Doctrine2       | ~2.4.0          | Time: 16.514 s | Memory: 18.0 MB | PHP: 7.1.10
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.1.10.
+NetteDatabase   | ~2.1.0          | Time:  1.461 s | Memory:  9.6 MB | PHP: 7.1.10
+NetteDatabase   | ~2.2.0          | Time:  1.365 s | Memory:  9.6 MB | PHP: 7.1.10
+NetteDatabase   | ~2.3.0          | Time:  1.300 s | Memory: 11.3 MB | PHP: 7.1.10
+NetteDatabase   | ~2.4.0          | Time:  3.435 s | Memory: 10.0 MB | PHP: 7.1.10
+NetteDatabase   | dev-master      | Time:  5.150 s | Memory: 10.7 MB | PHP: 7.1.10
+Nextras\Orm     | ~1.1.0          | Time:  1.856 s | Memory: 17.9 MB | PHP: 7.1.10
+YetORM          | ~8.0.0          | Time:  3.819 s | Memory: 10.7 MB | PHP: 7.1.10
+LeanMapper      | ~2.2.0          | Time:  1.396 s | Memory: 10.6 MB | PHP: 7.1.10
+NotORM          | dev-master      | Time:  4.231 s | Memory:  7.3 MB | PHP: 7.1.10
+Doctrine2       | ~2.4.0          | Time: 16.034 s | Memory: 16.3 MB | PHP: 7.1.10
+
+
+
