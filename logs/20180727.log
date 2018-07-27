@@ -106,3 +106,33 @@ Doctrine2       | ~2.4.0          | Time: 12.557 s | Memory: 16.5 MB | PHP: 7.0.
 
 
 
+Processor: AMD EPYC 7401P 24-Core Processor | CPU: 1996.263 | RAM: 65698580 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time:  6.928 s | Memory: 18.3 MB | PHP: 5.4.45
+NetteDatabase   | ~2.1.0          | Time:  0.721 s | Memory: 17.2 MB | PHP: 5.4.45
+NetteDatabase   | ~2.2.0          | Time:  0.634 s | Memory: 16.9 MB | PHP: 5.4.45
+NetteDatabase   | ~2.3.0          | Time:  0.650 s | Memory: 19.3 MB | PHP: 5.4.45
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.4.45.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.4.45.
+Nextras\Orm     | ~1.1.0          | Time:  1.035 s | Memory: 25.3 MB | PHP: 5.4.45
+YetORM          | ~8.0.0          | Time:  0.814 s | Memory: 21.1 MB | PHP: 5.4.45
+LeanMapper      | ~2.2.0          | Time:  0.627 s | Memory: 16.9 MB | PHP: 5.4.45
+NotORM          | dev-master      | Time:  2.452 s | Memory: 13.2 MB | PHP: 5.4.45
+Install library using `install` for all or manually `composer install` for every library
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time:  7.175 s | Memory: 15.8 MB | PHP: 5.4.45
+NetteDatabase   | ~2.1.0          | Time:  0.627 s | Memory: 14.6 MB | PHP: 5.4.45
+NetteDatabase   | ~2.2.0          | Time:  0.625 s | Memory: 14.4 MB | PHP: 5.4.45
+NetteDatabase   | ~2.3.0          | Time:  0.644 s | Memory: 16.8 MB | PHP: 5.4.45
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.4.45.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.4.45.
+Nextras\Orm     | ~1.1.0          | Time:  0.976 s | Memory: 25.0 MB | PHP: 5.4.45
+YetORM          | ~8.0.0          | Time:  0.831 s | Memory: 18.6 MB | PHP: 5.4.45
+LeanMapper      | ~2.2.0          | Time:  0.639 s | Memory: 16.9 MB | PHP: 5.4.45
+NotORM          | dev-master      | Time:  2.689 s | Memory: 13.2 MB | PHP: 5.4.45
+Install library using `install` for all or manually `composer install` for every library
+
+
+
