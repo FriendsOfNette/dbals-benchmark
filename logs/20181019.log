@@ -28,3 +28,33 @@ Install library using `install` for all or manually `composer install` for every
 
 
 
+Processor: AMD EPYC 7401P 24-Core Processor | CPU: 1996.203 | RAM: 65698580 kB
+First run (create cache files)
+Install library using `install` for all or manually `composer install` for every library
+Install library using `install` for all or manually `composer install` for every library
+NetteDatabase   | ~2.2.0          | Time:  0.672 s | Memory: 16.9 MB | PHP: 5.4.45
+NetteDatabase   | ~2.3.0          | Time:  0.650 s | Memory: 19.3 MB | PHP: 5.4.45
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.4.45.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.4.45.
+Nextras\Orm     | ~1.1.0          | Time:  1.151 s | Memory: 25.3 MB | PHP: 5.4.45
+YetORM          | ~8.0.0          | Time:  0.850 s | Memory: 21.1 MB | PHP: 5.4.45
+LeanMapper      | ~2.2.0          | Time:  0.640 s | Memory: 16.9 MB | PHP: 5.4.45
+NotORM          | dev-master      | Time:  2.469 s | Memory: 13.2 MB | PHP: 5.4.45
+Install library using `install` for all or manually `composer install` for every library
+
+
+Second run (use cache)
+Install library using `install` for all or manually `composer install` for every library
+Install library using `install` for all or manually `composer install` for every library
+NetteDatabase   | ~2.2.0          | Time:  1.120 s | Memory: 14.4 MB | PHP: 5.4.45
+NetteDatabase   | ~2.3.0          | Time:  0.669 s | Memory: 16.8 MB | PHP: 5.4.45
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.4.45.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.4.45.
+Nextras\Orm     | ~1.1.0          | Time:  1.765 s | Memory: 25.0 MB | PHP: 5.4.45
+YetORM          | ~8.0.0          | Time:  0.984 s | Memory: 18.6 MB | PHP: 5.4.45
+LeanMapper      | ~2.2.0          | Time:  0.667 s | Memory: 16.9 MB | PHP: 5.4.45
+NotORM          | dev-master      | Time:  2.681 s | Memory: 13.2 MB | PHP: 5.4.45
+Install library using `install` for all or manually `composer install` for every library
+
+
+
