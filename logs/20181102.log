@@ -244,3 +244,33 @@ Doctrine2       | ~2.4.0          | Time: 19.144 s | Memory: 16.5 MB | PHP: 7.0.
 
 
 
+Processor: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz | CPU: 2800.137 | RAM: 61815180 kB
+First run (create cache files)
+NetteDatabase   | ~2.0.0          | Time: 20.813 s | Memory: 18.3 MB | PHP: 5.4.45
+NetteDatabase   | ~2.1.0          | Time:  1.918 s | Memory: 17.2 MB | PHP: 5.4.45
+NetteDatabase   | ~2.2.0          | Time:  1.716 s | Memory: 16.9 MB | PHP: 5.4.45
+NetteDatabase   | ~2.3.0          | Time:  2.259 s | Memory: 19.3 MB | PHP: 5.4.45
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.4.45.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.4.45.
+Nextras\Orm     | ~1.1.0          | Time:  2.430 s | Memory: 25.3 MB | PHP: 5.4.45
+YetORM          | ~8.0.0          | Time:  2.138 s | Memory: 21.1 MB | PHP: 5.4.45
+LeanMapper      | ~2.2.0          | Time:  1.734 s | Memory: 16.9 MB | PHP: 5.4.45
+NotORM          | dev-master      | Time:  8.206 s | Memory: 13.2 MB | PHP: 5.4.45
+Install library using `install` for all or manually `composer install` for every library
+
+
+Second run (use cache)
+NetteDatabase   | ~2.0.0          | Time: 22.020 s | Memory: 15.8 MB | PHP: 5.4.45
+NetteDatabase   | ~2.1.0          | Time:  1.723 s | Memory: 14.7 MB | PHP: 5.4.45
+NetteDatabase   | ~2.2.0          | Time:  1.720 s | Memory: 14.4 MB | PHP: 5.4.45
+NetteDatabase   | ~2.3.0          | Time:  1.669 s | Memory: 16.8 MB | PHP: 5.4.45
+Skip: NetteDatabase (~2.4.0) needs >=5.6.0, current version is 5.4.45.
+Skip: NetteDatabase (dev-master) needs >=7.0.0, current version is 5.4.45.
+Nextras\Orm     | ~1.1.0          | Time:  2.357 s | Memory: 25.0 MB | PHP: 5.4.45
+YetORM          | ~8.0.0          | Time:  2.066 s | Memory: 18.6 MB | PHP: 5.4.45
+LeanMapper      | ~2.2.0          | Time:  1.738 s | Memory: 16.9 MB | PHP: 5.4.45
+NotORM          | dev-master      | Time:  7.997 s | Memory: 13.2 MB | PHP: 5.4.45
+Install library using `install` for all or manually `composer install` for every library
+
+
+
