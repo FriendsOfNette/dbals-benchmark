@@ -400,3 +400,165 @@ Doctrine2       | ~2.4.0          | Time:  9.394 s | Memory: 20.7 MB | PHP: 5.6.
 
 
 
+Processor: Intel(R) Xeon(R) CPU @ 2.30GHz | CPU: 2300.000 | RAM: 7659372 kB
+First run (create cache files)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.2.16.
+
+Fatal error: Uncaught Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/loader.php on line 13
+
+Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/loader.php on line 13
+
+Call Stack:
+    0.0002     425432   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+    0.0015     536784   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:13
+    0.0015     536840   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:13
+    0.0015     536840   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/composer/ClassLoader.php:322
+    0.0017     563768   5. include('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php') /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/composer/ClassLoader.php:444
+    0.0017     563768   6. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23
+    0.0018     564128   7. {closure:/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/loader.php:3-16}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23
+
+
+Fatal error: Uncaught Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/loader.php on line 13
+
+Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/loader.php on line 13
+
+Call Stack:
+    0.0002     425640   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/run-employees.php:0
+    0.0023     658000   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/run-employees.php:16
+    0.0023     658056   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/run-employees.php:16
+    0.0023     658056   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/composer/ClassLoader.php:322
+    0.0025     689744   5. include('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php') /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/composer/ClassLoader.php:444
+    0.0025     689744   6. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22
+    0.0026     690104   7. {closure:/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/loader.php:3-16}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22
+
+NetteDatabase   | ~2.4.0          | Time:  1.348 s | Memory: 12.1 MB | PHP: 7.2.16
+NetteDatabase   | dev-master      | Time:  1.397 s | Memory: 12.1 MB | PHP: 7.2.16
+
+Fatal error: Cannot use Nette\Object as Object because 'Object' is a special class name in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nextras/orm/src/Model/SimpleModelFactory.php on line 12
+
+Call Stack:
+    0.0002     426264   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/run-employees.php:0
+    0.0039     880872   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/run-employees.php:27
+    0.0039     880936   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/run-employees.php:27
+    0.0039     880936   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/composer/ClassLoader.php:322
+
+
+Fatal error: Uncaught Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21 in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/loader.php on line 13
+
+Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21 in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/loader.php on line 13
+
+Call Stack:
+    0.0002     425984   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0060    1161456   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:29
+    0.0060    1161520   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:29
+    0.0060    1161520   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:322
+    0.0061    1163008   5. include('/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/model/Repository/EmployeeRepository.php') /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:444
+    0.0061    1163008   6. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/model/Repository/EmployeeRepository.php:10
+    0.0061    1163056   7. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/model/Repository/EmployeeRepository.php:10
+    0.0061    1163056   8. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:322
+    0.0064    1208624   9. include('/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php') /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:444
+    0.0064    1208624  10. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21
+    0.0064    1208984  11. {closure:/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/loader.php:3-16}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21
+
+
+Deprecated: Function create_function() is deprecated in /home/travis/build/f3l1x/dbals-benchmark/src/LeanMapper/v2.0/vendor/dg/dibi/dibi/libs/DibiConnection.php on line 122
+
+Call Stack:
+    0.0001     424912   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/LeanMapper/v2.0/run-employees.php:0
+    0.0021     665952   2. LeanMapper\Connection->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/LeanMapper/v2.0/run-employees.php:16
+
+LeanMapper      | ~2.2.0          | Time:  0.574 s | Memory: 10.4 MB | PHP: 7.2.16
+NotORM          | dev-master      | Time:  1.748 s | Memory:  7.2 MB | PHP: 7.2.16
+
+Fatal error: Uncaught Error: Class 'Doctrine\Common\Annotations\AnnotationRegistry' not found in /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/vendor/doctrine/orm/lib/Doctrine/ORM/Configuration.php on line 152
+
+Error: Class 'Doctrine\Common\Annotations\AnnotationRegistry' not found in /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/vendor/doctrine/orm/lib/Doctrine/ORM/Configuration.php on line 152
+
+Call Stack:
+    0.0004     433056   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/run-employees.php:0
+    0.0043     883728   2. Doctrine\ORM\Tools\Setup::createAnnotationMetadataConfiguration() /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/run-employees.php:20
+    0.0049     961192   3. Doctrine\ORM\Configuration->newDefaultAnnotationDriver() /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Setup.php:71
+
+
+
+Second run (use cache)
+Skip: NetteDatabase (~2.0.0) needs <7.0.0, current version is 7.2.16.
+
+Fatal error: Uncaught Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/loader.php on line 13
+
+Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/loader.php on line 13
+
+Call Stack:
+    0.0002     425432   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:0
+    0.0013     536784   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:13
+    0.0013     536840   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/run-employees.php:13
+    0.0013     536840   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/composer/ClassLoader.php:322
+    0.0015     563768   5. include('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php') /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/composer/ClassLoader.php:444
+    0.0015     563768   6. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23
+    0.0015     564128   7. {closure:/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/utils/src/loader.php:3-16}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.2/vendor/nette/database/src/Database/Connection.php:23
+
+
+Fatal error: Uncaught Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/loader.php on line 13
+
+Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22 in /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/loader.php on line 13
+
+Call Stack:
+    0.0002     425640   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/run-employees.php:0
+    0.0022     658000   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/run-employees.php:16
+    0.0022     658056   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/run-employees.php:16
+    0.0022     658056   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/composer/ClassLoader.php:322
+    0.0024     689744   5. include('/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php') /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/composer/ClassLoader.php:444
+    0.0024     689744   6. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22
+    0.0025     690104   7. {closure:/home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/utils/src/loader.php:3-16}() /home/travis/build/f3l1x/dbals-benchmark/src/NetteDatabase/v2.3/vendor/nette/database/src/Database/Connection.php:22
+
+NetteDatabase   | ~2.4.0          | Time:  1.319 s | Memory:  9.8 MB | PHP: 7.2.16
+NetteDatabase   | dev-master      | Time:  1.406 s | Memory:  9.8 MB | PHP: 7.2.16
+
+Fatal error: Cannot use Nette\Object as Object because 'Object' is a special class name in /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/nextras/orm/src/Model/SimpleModelFactory.php on line 12
+
+Call Stack:
+    0.0002     426264   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/run-employees.php:0
+    0.0039     880872   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/run-employees.php:27
+    0.0039     880936   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/run-employees.php:27
+    0.0039     880936   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/NextrasOrm/v1.0/vendor/composer/ClassLoader.php:322
+
+
+Fatal error: Uncaught Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21 in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/loader.php on line 13
+
+Exception: Replace deprecated Nette\Object with trait Nette\SmartObject in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21 in /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/loader.php on line 13
+
+Call Stack:
+    0.0002     425984   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:0
+    0.0059    1161456   2. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:29
+    0.0059    1161520   3. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/run-employees.php:29
+    0.0059    1161520   4. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:322
+    0.0059    1163008   5. include('/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/model/Repository/EmployeeRepository.php') /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:444
+    0.0059    1163008   6. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/model/Repository/EmployeeRepository.php:10
+    0.0059    1163056   7. Composer\Autoload\ClassLoader->loadClass() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/model/Repository/EmployeeRepository.php:10
+    0.0059    1163056   8. Composer\Autoload\includeFile() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:322
+    0.0063    1208624   9. include('/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php') /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/composer/ClassLoader.php:444
+    0.0063    1208624  10. spl_autoload_call() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21
+    0.0063    1208984  11. {closure:/home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/nette/utils/src/loader.php:3-16}() /home/travis/build/f3l1x/dbals-benchmark/src/YetORM/v8.0/vendor/uestla/yetorm/src/YetORM/Repository.php:21
+
+
+Deprecated: Function create_function() is deprecated in /home/travis/build/f3l1x/dbals-benchmark/src/LeanMapper/v2.0/vendor/dg/dibi/dibi/libs/DibiConnection.php on line 122
+
+Call Stack:
+    0.0002     424912   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/LeanMapper/v2.0/run-employees.php:0
+    0.0021     665952   2. LeanMapper\Connection->__construct() /home/travis/build/f3l1x/dbals-benchmark/src/LeanMapper/v2.0/run-employees.php:16
+
+LeanMapper      | ~2.2.0          | Time:  0.575 s | Memory: 10.4 MB | PHP: 7.2.16
+NotORM          | dev-master      | Time:  1.700 s | Memory:  7.2 MB | PHP: 7.2.16
+
+Fatal error: Uncaught Error: Class 'Doctrine\Common\Annotations\AnnotationRegistry' not found in /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/vendor/doctrine/orm/lib/Doctrine/ORM/Configuration.php on line 152
+
+Error: Class 'Doctrine\Common\Annotations\AnnotationRegistry' not found in /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/vendor/doctrine/orm/lib/Doctrine/ORM/Configuration.php on line 152
+
+Call Stack:
+    0.0002     433056   1. {main}() /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/run-employees.php:0
+    0.0036     883728   2. Doctrine\ORM\Tools\Setup::createAnnotationMetadataConfiguration() /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/run-employees.php:20
+    0.0042     961192   3. Doctrine\ORM\Configuration->newDefaultAnnotationDriver() /home/travis/build/f3l1x/dbals-benchmark/src/Doctrine/v2.4/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Setup.php:71
+
+
+
+
